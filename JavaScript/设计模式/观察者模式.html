@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //自定义事件
+    class MyEvent{
+        constructor(){
+            this.handler = {};
+        }
+        //添加事件的方法
+        addEvent(eventName,fn){
+            //保存事件
+            if (typeof this.handler[eventName] === 'undefined') {
+                this.handler[eventName] = [];
+            }
+            this.handler[eventName].push(fn);
+        }
+        //触发事件的方法
+        trigger(eventName){
+            //执行事件
+            if (typeof this.handler[eventName] === 'undefined') {
+                return;
+            }
+            this.handler[eventName].forEach(ele=>{
+                ele();//执行方法
+            });
+        }
+        //移除事件的方法
+        removeEvent(eventName,fn){
+            if (typeof this.handler[eventName] === 'undefined') {
+                return;
+            }
+            if (fn === undefined) {
+                delete this.handler[eventName];
+                return;
+            }
+            let index = this.handler[eventName].indexOf(fn);
+            if (index !== -1) {
+                this.handler[eventName].splice(index,1);
+            }
+        }
+    }
+
+    function a(){
+        console.log("a");
+    }
+    function b(){
+        console.log("b");
+    }
+
+    let myevent = new MyEvent();
+    myevent.addEvent('event1',a);
+    myevent.addEvent('event1',b);
+    myevent.trigger('event1');
+    myevent.removeEvent('event1',a);
+    myevent.trigger('event1');
+    myevent.removeEvent('event1');
+    myevent.trigger('event1');
+</script>
+</body>
+</html>

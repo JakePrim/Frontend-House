@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./默写promise.js"></script>
+</head>
+<body>
+    
+</body>
+<script>
+    //测试
+    let test = new TestPromise((resolve,reject)=>{
+        //测试状态
+        // resolve('success');
+        reject('error');
+    });
+    test.then(res=>{
+        console.log(res);
+    },err=>{
+        console.log(err);
+    }).then(res=>{
+        console.log("-"+res);
+    }).then(res=>{
+        console.log("--"+res);
+    }).catch(err=>{
+        console.log("---"+err);
+    }).finally(()=>{
+        console.log('finally');
+    });
+
+    TestPromise.resolve('static success').then(res=>{
+        console.log(res);
+    }).catch(err=>{
+        console.log(err);
+    });
+
+    TestPromise.reject('static error').catch(err=>{
+        console.log(err);
+    });
+
+    let test1 = new TestPromise((resolve,reject)=>{
+        //测试状态
+        setTimeout(()=>{
+            resolve('success-1');
+        });
+        // reject('error');
+    });
+    let test2 = new TestPromise((resolve,reject)=>{
+        //测试状态
+        resolve('success-2');
+        // reject('error');
+    });
+    let test3 = new TestPromise((resolve,reject)=>{
+        //测试状态
+        resolve('success-3');
+        // reject('error');
+    });
+    // TestPromise.all([test1,test2,test3]).then(res=>{
+    //     console.log(res);
+    // }).catch(err=>{
+    //     console.log(err);
+    // });
+
+    TestPromise.race([test1,test2,test3]).then(res=>{
+        console.log(res);
+    }).catch(err=>{
+        console.log(err);
+    })
+</script>
+</html>

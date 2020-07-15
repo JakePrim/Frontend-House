@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./MPromise.js"></script>
+</head>
+
+<body>
+    <h1>手写一个promise</h1>
+</body>
+<script>
+    let m = new MPromise((resolve, reject) => {
+        // resolve('1');
+        reject('2');
+    });
+    // console.log(m);
+    let p = m.then((res) => {
+        console.log(res);
+    }).then(res => {
+        console.log(res);
+    }).catch(err=>{
+        console.log(err);
+    });
+    console.log(p);
+
+    // function fn(fn1, fn2) {
+    //     console.log(this);//TestFn {}
+    //     fn1();//Window {parent: Window, opener: null, top: Window, length: 0, frames: Window, …}
+    //     fn2();//Window {parent: Window, opener: null, top: Window, length: 0, frames: Window, …}
+    // }
+    // function fn1() {
+    //     console.log(this);
+    // }
+    // function fn2() {
+    //     console.log(this);
+    // }
+
+    // /**
+    //  * 创建一个类
+    //  */
+    // function TestFn() {
+    //     //创建对象时调用f()方法
+    //     this.f(fn1, fn2);
+    // }
+
+    // TestFn.prototype.f = fn;
+
+    // let tf = new TestFn();
+
+
+
+
+</script>
+
+</html>

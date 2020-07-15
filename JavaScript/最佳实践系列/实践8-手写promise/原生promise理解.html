@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // let time = 0;
+    // setTimeout(()=>{
+    //     time = 1;
+    //     console.log(time);
+    //     //宏任务嵌套宏任务
+    //     setTimeout(()=>{
+    //         time = 5;
+    //         console.log(time);
+    //     },1000);
+    // },1000);
+    // time = 2;
+    // console.log(time);
+    // setTimeout(()=>{
+    //     time=3;
+    //     console.log(time);
+    // },1000);
+    // time = 4;
+    // console.log(time);
+    // //微任务
+    // let observer = new MutationObserver(()=>{
+    //     time = 6;
+    //     console.log(6);
+    // });
+    // observer.observe(document.body,{
+    //     attributes:true
+    // });
+    // document.body.setAttribute('kkb',Math.random());
+
+    let p = new Promise((resolve, reject) => {
+        resolve(1);
+    });
+    p.then(res => {
+        console.log(1);
+    }).then(res => {
+        console.log(1);
+    });
+
+
+    
+    class Animal {
+        constructor(name) {
+            this.name = name;
+        }
+        bite(animal) {
+            console.log(this.name + "咬:" + animal.name);
+        }
+    }
+    class Dog extends Animal {
+        constructor(name) {
+            super(name);
+        }
+    }
+
+    class Person extends Animal {
+        constructor(name) {
+            super(name);
+        }
+    }
+
+    let dog = new Dog("狗");
+    let person = new Person("人");
+    dog.bite(person);
+</script>
+
+</html>

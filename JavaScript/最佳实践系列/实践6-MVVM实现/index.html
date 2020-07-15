@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./myvue.js"></script>
+</head>
+<body>
+    <div id="app">
+        11{{message}}22
+        <div>
+            {{message1}}
+            <div>
+                {{message}}
+            </div>
+        </div>
+        <div v-text="message"></div>
+        <input v-model="message" />
+        <div v-html="h1"></div>
+    </div>
+</body>
+<script>
+    let v = new MyVue({
+        el:"#app",
+        data:{
+            message:"测试数据",
+            message1:"我是数据2",
+            h1:"<h1>我是H1啊</h1>"
+        }
+    });
+    setTimeout(() => {
+        v._data.message = "修改数据";
+        v._data.message1 = "我是修改数据2";
+    }, 1000);
+</script>
+</html>

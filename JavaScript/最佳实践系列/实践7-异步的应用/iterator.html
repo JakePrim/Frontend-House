@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    //for of/ for in 迭代器
+    //for...in : 以原始插入的顺序迭代对象的可枚举属性
+    //for...of : 根据迭代对象的迭代器具体实现迭代对象数据 可迭代对象 - 实现了[Symbol.iterator]方法
+    let arr = ['a','b','c','d'];
+    let obj = {
+        a:1,
+        b:2,
+        c:3
+    }
+    for(let attr in arr){
+        console.log(attr);//0 1 2 3
+    }
+    for(let val of arr){
+        console.log(val);//a b c d
+    }
+    console.dir(arr);//symbol(Symbol.iterator): ƒ values()
+    console.dir(obj);//没有Symbol.iterator方法
+    
+    //如果要对象使用for of需要加一个属性 自定义迭代器
+    obj[Symbol.iterator] = function(){
+        //迭代协议
+        //将对象value转换为数组
+        let values = Object.values(obj);
+
+        //将对象key转为数组
+        let keys = Object.keys(obj);
+        // let values = [...obj];
+        console.log(values);
+        let index = 0;
+
+        //必须返回一个对象 同时必须有一个next方法
+        return {
+            next(){
+                //done:表示循环是否完成
+                //value:for a of obj a就是value
+                //必须返回一个对象
+                if (index >= values.length) {
+                    return{
+                        done:true
+                    }
+                }else{
+                    return{
+                        done:false,
+                        value:{
+                            key:keys[index],
+                            value:obj[keys[index++]]
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //可以测试直接迭代方法
+    let objIterator = obj[Symbol.iterator]();
+    //执行next方法
+    console.log(objIterator.next());
+    
+    //其实for...of 一直调用objIterator.next() 直到done:true就会停止
+    for(let o of obj){
+        //obj is not iterable
+        console.log(o);
+    }
+
+    
+    
+</script>
+</html>

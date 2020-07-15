@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    /**
+     * 定义可迭代函数 yield 每次迭代的返回值 
+     */
+    function* fn() {
+        yield new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log("a");
+                resolve("1");
+            }, 500);
+        });
+        yield new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log("b");
+                resolve("2");
+            }, 500);
+        });
+        yield new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log("c");
+                resolve("3");
+            }, 500);
+        });
+    }
+    let f = fn();
+    // console.log(f.next());
+
+    // for (const iterator of f) {
+    //     console.log(iterator);
+    // }
+
+    function co(fn) {
+        let f = fn();
+        next();
+        function next(data){
+            let result = f.next();
+            console.log(result);
+            
+            if(!result.done){
+                //上一个异步执行完毕
+                result.value.then((info)=>{
+                    console.log(info,data);
+                    next(info);
+                });
+            }
+        }
+    }
+
+    co(fn);
+
+    // for (let fn of f) {
+
+    // }
+</script>
+
+</html>

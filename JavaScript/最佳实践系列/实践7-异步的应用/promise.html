@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+</body>
+<script>
+    /*
+     * 实现方块的移动动画 动画执行顺序:left -> bottom -> right -> top
+     * 需要通过异步来实现
+     * ele 元素
+     * direction 方向
+     * distance 移动的距离
+     * callback 回调
+     */
+
+    //常用的回调实现
+    // function move(ele, direction, distance, callback) {
+    //     function fn() {
+    //         //获取方向开始的位置
+    //         let start = parseInt(ele.style[direction]) || 0;
+    //         //移动的方向 1 -1
+    //         let dis = (distance - start) / Math.abs(distance - start);
+    //         //移动的速度
+    //         let speed = 5 * dis;
+    //         setTimeout(() => {
+    //             start += speed;
+    //             if (dis === 1) {
+    //                 if (start >= distance) {
+    //                     callback && callback();
+    //                 } else {
+    //                     ele.style[direction] = start + "px";
+    //                     fn();
+    //                 }
+    //             } else if (dis === -1) {
+    //                 if (start <= distance) {
+    //                     callback && callback();
+    //                 } else {
+    //                     ele.style[direction] = start + "px";
+    //                     fn();
+    //                 }
+    //             }
+    //         }, 10);
+    //     }
+    //     fn();
+    // }
+
+    let box = document.querySelector('#box');
+    // move(box, 'left', 300, () => {
+    //     move(box, 'top', 300, () => {
+    //         move(box, 'left', 0, () => {
+    //             move(box, 'top', 0, () => {
+    //                 console.log('运动完成');
+    //             });
+    //         });
+    //     });
+    // });
+    function move1(ele, direction, distance) {
+        return new Promise((resolve, reject) => {
+            function fn() {
+                //获取方向开始的位置
+                let start = parseInt(ele.style[direction]) || 0;
+                //移动的方向 1 -1
+                let dis = (distance - start) / Math.abs(distance - start);
+                //移动的速度
+                let speed = 5 * dis;
+                setTimeout(() => {
+                    start += speed;
+                    if (dis === 1) {
+                        if (start >= distance) {
+                            // callback && callback();
+                            resolve();
+                        } else {
+                            ele.style[direction] = start + "px";
+                            fn();
+                        }
+                    } else if (dis === -1) {
+                        if (start <= distance) {
+                            // callback && callback();
+                            resolve();
+                        } else {
+                            ele.style[direction] = start + "px";
+                            fn();
+                        }
+                    }
+                }, 10);
+            }
+            fn();
+        });
+    }
+
+    // move1(box,'left',300).then(res=>{
+    //     return move1(box,'top',300);
+    // }).then(res=>{
+    //     return move1(box,'left',0);
+    // }).then(res=>{
+    //     return move1(box,'top',0);
+    // });
+
+    async function moveFn() {
+        try {
+            await move1(box, 'left', 300);
+            await move1(box, 'top', 300);
+            await move1(box, 'left', 0);
+            await move1(box, 'top', 0);
+        } catch (e) {
+            console.log(e);
+        }
+    }
+    moveFn();
+    function loadImageAsync(url) {
+        return new Promise((resolve, reject) => {
+            const image = new Image();
+            image.onload = function () {
+                resolve(image);//图片加载成功
+            }
+            image.onerror = function () {
+                reject(new Error('Could not load image at:' + url));
+            }
+            image.src = url;
+        });
+    }
+    loadImageAsync('https://rmrbtest-image.peopleapp.com/upload/zw/logo/default2.png').then(function (image) {
+        document.querySelector('body').appendChild(image);
+    }, function (error) {
+        console.log(error);
+    });
+</script>
+
+</html>

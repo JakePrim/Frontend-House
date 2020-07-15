@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    class Yase{
+        constructor(){
+            this.name = "亚瑟";
+        }
+        fire(){
+            console.log("开火了....");
+        }
+    }
+
+    //增强fire方法 伤害增加100点
+    Function.prototype.DecoratorFn = function(fn,...arg){
+        this();//执行当前方法
+        fn(...arg);
+    }
+
+    //增强的方法
+    function hurt(name){
+        console.log("100点伤害",name);
+    }
+    let yase = new Yase();
+    yase.fire.DecoratorFn(hurt,"李四");
+</script>
+</body>
+</html>

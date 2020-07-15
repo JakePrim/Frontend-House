@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    class Person{
+        static instance = null;
+        constructor(name){
+            if (Person.instance) {
+                return Person.instance;
+            }
+            Person.instance = this;
+            this.name = name;
+        }
+    }
+    let person1 = new Person("张三");
+    let person2 = new Person("李四");
+    //但是Person.instance 可以被外部修改 是不安全的不推荐这样使用单例模式
+    Person.instance.name = "万物";
+    console.log(person1,person2);//张三
+
+    
+    
+    
+</script>
+<script type="module">
+    import Person from './single.js';
+    let person1 = new Person("sd");
+    let person2 = new Person("ss");
+    //通过这种模块化的方式 就无法修改了
+    console.log(person1,person2);//sd sd
+</script>
+</body>
+</html>

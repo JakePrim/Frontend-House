@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 背景显示黑色透明 */
+        .k-wrapper {
+            position: fixed;
+            background-color: black;
+            opacity: 0.4;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        /* 弹窗设置  */
+        .k-dialog {
+            z-index: 2001;
+            /*在黑色透明背景的上面*/
+            position: absolute;
+            width: 30%;
+            display: block;
+            background-color: #fff;
+            border-radius: 2px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+            margin: 0 auto;
+            left: 30%;
+            top: 15vh;
+        }
+
+        .k-header {
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .k-header .k-title {
+            line-height: 24px;
+            font-size: 18px;
+            color: #333333;
+        }
+
+        .k-header .k-close {
+            color: #909399;
+            cursor: pointer;
+            font-weight: 400;
+        }
+
+        .k-body {
+            padding: 30px 20px;
+            color: 606266;
+            font-size: 14px;
+        }
+
+        .k-footer {
+            padding: 10px 20px 30px;
+            text-align: right;
+        }
+
+        .k-default {
+            color: #606266;
+            border: 1px solid #dcdfe6;
+            text-align: center;
+            cursor: pointer;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 4px;
+            font-weight: 500;
+            margin-right: 10px;
+        }
+
+        .k-default:hover {
+            color: #409eff;
+            background: #ecf5ff;
+            cursor: pointer;
+        }
+
+        .k-primary {
+            border: 1px solid #dcdfe6;
+            text-align: center;
+            cursor: pointer;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 4px;
+            font-weight: 500;
+            background: #409eff;
+            color: #fff;
+            margin-left: 10px;
+        }
+
+        .k-primary:hover {
+            background: #66b1ff;
+        }
+
+        .k-input {
+            width: 100%;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .input-inner {
+            -webkit-appearance: none;
+            background-color: #fff;
+            background-image: none;
+            border-radius: 4px;
+            border: 1px solid #dcdfe6;
+            box-sizing: border-box;
+            color: #606266;
+            display: inline-block;
+            font-size: inherit;
+            height: 40px;
+            line-height: 40px;
+            outline: none;
+            padding: 0 15px;
+            transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+
+    <script src="dialog.js"></script>
+</head>
+
+<body>
+    <!-- <div class="k-wrapper"></div>
+    <div class="k-dialog">
+        <div class="k-header">
+            <span class="k-title">提示</span>
+            <span class="k-close">X</span>
+        </div>
+        <div class="k-body">
+            <span>这是一段文本</span>
+            <input type="text" class="input-inner">
+        </div>
+        <div class="k-footer">
+            <span class="k-default">取消</span>
+            <span class="k-primary">确定</span>
+        </div>
+    </div> -->
+    <button class="btn">点击我显示</button>
+    <script>
+        let dialog = new Dialog({
+            width: "40%",
+            title: "我是标题",
+            content:'我是内容',
+            maskable:true,
+            isCancel:true,
+            cancel:function(){
+                console.log("点击了取消");
+            },
+            success:function(){
+                console.log('点击了确定');
+            }
+        });
+        document.querySelector('.btn').onclick = function(){
+            dialog.show();
+        }
+    </script>
+</body>
+
+</html>
