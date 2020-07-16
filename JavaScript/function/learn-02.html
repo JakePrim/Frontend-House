@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 闭包的案例 */
+        Math.pow(4,2);//4的二次方 5的二次方
+        //通过一个函数来简化求平方
+        function makePow(power){
+            //返回一个函数求传递的数的power次幂
+            return function(value){
+                return Math.pow(value,power);
+            }
+        }
+        //求平方
+        let power2 = makePow(2);
+        //求三次方
+        let power3 = makePow(3);
+
+        console.log(power2(2));
+        console.log(power2(4));
+        console.log(power3(4));
+
+        //计算工资的案例 大多的时候基本工资是一样的 但是绩效工资不同,如何简化这种逻辑呢? 创建基本工资级别相对应的函数
+        //为不同级别的员工 生成求总工资的函数
+        function makeSalary(base){
+            return function(performance){//performance绩效工资
+                return base + performance;
+            }
+        }
+        let salaryLevel1 = makeSalary(12000);
+
+        let salaryLevel2 = makeSalary(15000);
+
+        console.log(salaryLevel1(2000));
+        
+        console.log(salaryLevel2(3000));
+
+    </script>
+</body>
+</html>
