@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // console.log('global begin');
+
+        // function bar() {
+        //     console.log('bar task');
+        // }
+
+        // function foo() {
+        //     console.log('foo task');
+        //     bar();
+        // }
+
+        // foo();
+
+        // console.log('global end');
+
+        console.log('global begin');
+
+        setTimeout(function tomer1(){
+            console.log('timer1 invoke');
+        },1800);
+
+        setTimeout(function timer2(){
+            console.log('timer2 invoke');
+            setTimeout(function inner(){
+                console.log('inner invoke');
+            },1000);
+        },1000);
+
+        console.log('global end');
+
+    </script>
+</body>
+
+</html>
