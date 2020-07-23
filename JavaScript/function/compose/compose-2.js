@@ -30,7 +30,7 @@ const map = _.curry((func,arr)=>{
 
 const f = _.flowRight(join('-'),trace('map'), map(_.toLower),trace('split'),split(' '));
 
-console.log(f('NEVER SAY DIE'));
+console.log('??',f('NEVER SAY DIE'));
 
 // const c = ['NEVER','SAY','DIE'];
 // console.log(_.toLower(c));
