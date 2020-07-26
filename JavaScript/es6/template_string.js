@@ -14,6 +14,7 @@ const str1 = console.log`hello world`;
 const name = 'tom';
 const gender = true;
 
+//可以接收到name gender的返回值
 function myTagFunc(strings,name,gender){
     console.log(strings,name,gender);//[ 'hey,', ' is a ', '' ] tom true
     const sex = gender ? '男' : '女';
