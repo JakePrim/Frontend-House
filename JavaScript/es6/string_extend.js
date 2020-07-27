@@ -1,4 +1,4 @@
-//es6 字符串的扩展
+//es6 字符串的扩展 判断字符串当中是否包含指定的内容
 
 const message = "Error: foo is not defined.";
 console.log(message.startsWith('Error'));//字符串头部匹配
