@@ -1,5 +1,5 @@
 {
-  "name": "typescript",
+  "name": "FlowDemo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,6 @@
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
     "@babel/preset-flow": "^7.10.4",
-    "flow-bin": "^0.129.0",
-    "flow-remove-types": "^2.130.0"
+    "flow-bin": "^0.129.0"
   }
 }

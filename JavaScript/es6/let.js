@@ -7,7 +7,7 @@
 //     let foo = "zce";
 // }
 // console.log(foo);
-//foo is not defined
+// foo is not defined
 
 //for 循环的块级作用域
 // for(var i =0;i<3;i++){
@@ -29,7 +29,7 @@
 //         console.log(i);//打印的是全局作用域的i
 //     }
 // }
-// eles[2].onclick();
+// eles[2].onclick();//3
 
 //通过闭包来解决上述问题
 // for(var i = 0;i<eles.length;i++){
@@ -74,7 +74,7 @@
 // }
 // i++;
 
-//let 的声明不会变量提升 必须先声明变量在使用变量
+// let 的声明不会变量提升 必须先声明变量在使用变量
 // console.log(foo);//undefined
 // var foo = 'zce';
 

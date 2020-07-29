@@ -1,10 +1,9 @@
-/** 
- */
+
 /* 
-类型推断
+flow 类型推断
 @flow
 */
 function s(n){
     return n * n;
 }
-s('100');
+// s('100');
