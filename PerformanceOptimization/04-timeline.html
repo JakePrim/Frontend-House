@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时间线记录内存变化</title>
+</head>
+<body>
+    <button id="btn">点击</button>
+    <script>
+        const arr = [];
+        function test(){
+            for(let i=0;i<100000;i++){
+                //创建节点
+                document.body.appendChild(document.createElement('p'));
+            }
+            arr.push(new Array(1000000).join('x'));//一百万长度的字符串
+        }
+        //模拟内存的变化 点击事件触发创建一个长度非常长的数组
+        let btn = document.querySelector('#btn');
+        btn.onclick = test;
+    </script>
+</body>
+</html>

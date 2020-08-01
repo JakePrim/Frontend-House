@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>任务管理监控内存变化</title>
+</head>
+<body>
+    <button id="btn">点击</button>
+    <script>
+        //模拟内存的变化 点击事件触发创建一个长度非常长的数组
+        let btn = document.querySelector('#btn');
+        btn.onclick = function(){
+            let arr = new Array(1000000);
+        }
+    </script>
+</body>
+</html>

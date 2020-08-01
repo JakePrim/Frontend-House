@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>堆快照内存变化</title>
+</head>
+<body>
+    <button id="btn">点击</button>
+    <script>
+        //新建DOM但是不在界面上使用
+        var temEle;
+        function fn(){
+            var ul = document.createElement('ul');
+            for(let i = 0;i<10;i++){
+                let li = document.createElement('li');
+                ul.appendChild(li);
+            }
+            temEle = ul;
+            //确定不在使用直接置为null
+            // temEle = null;
+        }
+        let btn = document.querySelector('#btn');
+        btn.onclick = fn;
+    </script>
+</body>
+</html>
