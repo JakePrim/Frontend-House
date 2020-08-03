@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>闭包陷阱</title>
+</head>
+<body>
+    <button id="btn">add</button>
+    <script>
+        // function foo(){
+        //     var el = document.getElementById("btn");
+        //     //el还有引用存在 无法回收el的内存的
+        //     el.onclick = function(){
+        //         //内部引用了外部作用域变量
+        //         console.log(el.id);
+        //     }
+        // }
+        // foo();
+
+        function foo(){
+            var el = document.getElementById("btn");
+            el.onclick = function(){
+                //内部引用了外部作用域变量
+                console.log(el.id);
+            }
+            el = null;//解决当前内存的泄露 el清除 dom对他的引用消失了
+        }
+        foo();
+
+    </script>
+</body>
+</html>
