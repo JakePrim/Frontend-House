@@ -34,7 +34,7 @@ interface Cache{
 
 const cache:Cache = {}
 cache.foo = "value";
-// cache.bar = 123;
+// cache.bar = 123;//报错
 /* interface 接口 约定一个对象当中有哪些成员 */
 
 
