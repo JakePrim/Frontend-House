@@ -3,19 +3,19 @@
 //它提供拦截 JavaScript 操作的方法。这些方法与proxy handlers的方法相同
 //Reflect 成员方法就是Proxy处理对象的默认实现
 
-// const obj = {
-//     foo:'123',
-//     bar:'456'
-// }
+const obj = {
+    foo:'123',
+    bar:'456'
+}
 
-// const proxy = new Proxy(obj,{
-//     get(target,property){
-//         console.log('watch logic~');
-//         return Reflect.get(target,property);
-//     }
-// });
+const proxy = new Proxy(obj,{
+    get(target,property){
+        console.log('watch logic~');
+        return Reflect.get(target,property);
+    }
+});
 
-// console.log(proxy.foo);
+console.log(proxy.foo);
 //Reflect 的意义：提供统一一套用于操作对象的API
 
 const obj = {

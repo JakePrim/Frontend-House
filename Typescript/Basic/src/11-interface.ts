@@ -11,12 +11,12 @@ interface Post {
   readonly summary:string;
 }
 
-// function printPost(post:Post){
-//     console.log(post.title);
-//     console.log(post.content);
-// }
+function printPost(post:Post){
+    console.log(post.title);
+    console.log(post.content);
+}
 
-// printPost({title:'hello',content:'a javascript'});
+printPost({title:'hello',content:'a javascript',summary:'12'});
 
 const hello: Post = {
   title: "hello",

@@ -1,12 +1,14 @@
-
-const str = `hello es2015,this is a string`;
-
 //支持换行
+const str = `hello es2015,
+
+            this is a string`;
+
+
 
 //支持嵌入变量
-// const name= 'tom';
-// const msg = `hey,${name} --- ${1 + 2 }===${Math.random()}`;
-// console.log(msg);
+const name= 'tom';
+const msg = `hey,${name} --- ${1 + 2 }===${Math.random()}`;
+console.log(msg);
 
 //代表标签的模板字符串
 const str1 = console.log`hello world`;
@@ -23,5 +25,5 @@ function myTagFunc(strings,name,gender){
 
 const result = myTagFunc`hey,${name} is a ${gender}`;
 
-console.log(result);
+console.log(result);//hey,tom is a 男
 

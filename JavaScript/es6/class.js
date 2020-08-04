@@ -1,13 +1,13 @@
 /* Class 类型 */
 
 //传统的写法
-// function Person(name){
-//     this.name = name;
-// }
-// Person.prototype.say = function(){
-//     console.log(`hi my name is ${this.name}`);
-// }
-// Person.t = "123";
+function Person(name){
+    this.name = name;
+}
+Person.prototype.say = function(){
+    console.log(`hi my name is ${this.name}`);
+}
+Person.t = "123";
 
 //Class 写法
 class Person{

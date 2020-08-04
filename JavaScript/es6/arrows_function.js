@@ -1,13 +1,13 @@
 //箭头函数 => Fira Code
 
 //传统定义函数
-// function inc(number){
-//     return number + 1;
-// }
+function inc(number){
+    return number + 1;
+}
 
 //箭头函数 没有括号 则作为结果返回
-// const inc = n => n + 1;
-// console.log(inc(100));
+const inc = n => n + 1;
+console.log(inc(100));
 
 //多行代码 需要使用括号 并且需要些return进行返回
 const inc = (n, m) => {

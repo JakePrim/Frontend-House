@@ -16,12 +16,12 @@ console.log(cache);//{ foo: '123' }
 
 const s = Symbol();
 console.log(s);//Symbol()
-console.log(typeof s);
+console.log(typeof s);//symbol
 console.log(Symbol() === Symbol());//false
 
-console.log(Symbol('foo'));
-console.log(Symbol('bar'));
-console.log(Symbol('baz'));
+console.log(Symbol('foo'));//Symbol(foo)
+console.log(Symbol('bar'));//Symbol(bar)
+console.log(Symbol('baz'));//Symbol(baz)
 
 //对象支持symbol作为键
 const ss=Symbol('foo');
@@ -54,8 +54,8 @@ console.log(s1===s2);//true
 //如果for() 方法传入的不是字符串就会 默认转换为字符串 注意如果传入true和'true' 结果是一样的 注意！！
 console.log(Symbol.for(true)===Symbol.for('true'));// true 
 
-console.log(Symbol.iterator);
-console.log(Symbol.hasInstance);
+console.log(Symbol.iterator);//Symbol(Symbol.iterator)
+console.log(Symbol.hasInstance);//Symbol(Symbol.hasInstance)
 
 const obj2 = {
     //为对象实现迭代器会经常用到

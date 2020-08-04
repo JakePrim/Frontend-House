@@ -12,7 +12,7 @@
         //     var el = document.getElementById("btn");
         //     //el还有引用存在 无法回收el的内存的
         //     el.onclick = function(){
-        //         //内部引用了外部作用域变量
+        //         //跨作用域的引用 当前的内存可能会泄露的 这样导致el无法被回收的
         //         console.log(el.id);
         //     }
         // }
@@ -24,9 +24,11 @@
                 //内部引用了外部作用域变量
                 console.log(el.id);
             }
+            //当el 不再使用的时候手动置为null 比如删除了btn元素 dom元素的引用消失了 但是代码中el还在引用中 要手动置为null
             el = null;//解决当前内存的泄露 el清除 dom对他的引用消失了
         }
         foo();
+        // 要理清逻辑 避开闭包的陷阱 把闭包的引用关系在不使用的时候尽可能的去清除引用
 
     </script>
 </body>
