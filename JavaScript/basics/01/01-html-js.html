@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 这里放页面内容 -->
+    <!-- 注意：HTML是解释执行会从头到底部一次执行 如果把<script>放到页面的前面 那么页面的渲染会存在很长的空白期
+        通常我们都会把<script>放到<body>元素中的页面内容的后面，等待页面全部渲染完毕后 在执行JavaScript    
+    -->
+    <script>
+        //嵌入行内的JavaScript代码 注意<script>内容中的代码没有被计算完成之前，页面的其余内容不会被加载
+        function sayHi(){
+            console.log('say Hi!');
+            //注意代码中不能出现字符串"<\/script>" 会导致浏览器报错 如果要避免这个问题，添加转义字符 \即可
+            console.log("<\/script>");
+        }
+        sayHi();
+    </script>
+
+    <!-- 引用外部的JavaScript 必须使用src属性 与解释行内javascript一样,在解释外部的JavaScript文件时，也会阻塞页面包含文件下载的事件-->
+    <script src="./example.js">
+        //使用了src不应该在script标签中包含其他代码，如果两者都提供的话，浏览器只会下载并执行外部脚本文件，从而忽略行内代码
+        console.log('the script tag with src attr');//该代码不会被执行
+    </script>
+
+    <!-- 在XHTM文档中可以忽略结束标签，但是在HTML文档中，它是无效的HTML不能使用 -->
+    <!-- <script src="./example.js"/> -->
+
+    <!-- <script> 的src属性可以是一个完整的URL，这个URL指向的资源可以跟它包含的HTML页面不在同一个域中 -->
+    <script src="http://www.somewhere.com/afile.js"></script>
+
+</body>
+
+</html>

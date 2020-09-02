@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 要想让预加载器知道这些动态请求文件的存在，可以在文档头部显式声明它们 -->
+    <link rel="preload" href="./example.js" as="script">
+</head>
+<body>
+    <!-- <script>
+        //动态加载js脚本
+        let script = document.createElement('script');
+        script.src="./example.js";
+        script.async=false;//以这种方式创建的<script>标签是以async异步方式加载的，但不是所有的浏览器都支持async属性所以要将它设置为false
+        document.head.appendChild(script);
+
+        //看似完美的解决方案但是以这种方式获取的资源对浏览器预加载器是不可见的。这会严重影响它们在资源获取队列中的优先级。根据应用程序的工作方式以及怎么使用，这种方式可能会严重影响性能。
+    </script> -->
+</body>
+</html>

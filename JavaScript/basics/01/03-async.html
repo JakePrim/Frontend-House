@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- async属性：给脚本添加async属性的目的是告诉浏览器，不必等脚本下载和执行完后再加载页面，同样也不必等到该异步脚本下载和执行后再加载其他脚本。正因为如此，异步脚本不应该在加载期间修改DOM。
+    异步脚本保证会在页面的load事件前执行，但可能会在DOMContentLoaded（参见第17章）之前或之后。Firefox 3.6、Safari 5和Chrome 7支持异步脚本。使用async也会告诉页面你不会使用document.write，不过好的Web开发实践根本就不推荐使用这个方法。 -->
+    <script async src="./example.js"></script>
+    <script async src="./example2.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
