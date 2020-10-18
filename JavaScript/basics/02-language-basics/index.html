@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./index.js"></script>
 </head>
 <body>
-    
+    <script>
+        // var 声明作用域
+        // 1. var 定义的变量会成为包含它的函数的局部变量 在函数内部定义一个变量
+        // 该变量在函数退出时被销毁
+        // function test() {
+        //     var message = 'hi';//局部变量
+        // }
+        // test();
+        // console.log(message);//message is not defined
+
+        // 2. 在函数内定义变量时省略var操作符，会创建一个全局变量
+            function test(){
+                message = 'hi'; // 全局变量
+            }
+            test();
+            console.log(message);// "hi"
+    </script>
 </body>
 </html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="data.php" method="GET" name="first">
+        <p>
+            用户名:
+            <input type="text" name="username" id="username" placeholder="请输入用户名" value="123" disabled>
+        </p>
+        <p>
+            密码:
+            <input type="password" name="password" id="password" placeholder="请输入密码" value="123" readonly>
+        </p>
+        <p>
+            性别:<input type="radio" name="sex" id="men" checked> <label for="men"> 男</label> 
+            <input type="radio" name="sex" id="women"><label for="women">女</label>
+        </p>
+        <p>
+            爱好:
+            <label><input type="checkbox" name="hyppe" checked> 绘画</label>
+            <input type="checkbox" name="hyppe"> 音乐
+            <input type="checkbox" name="hyppe"> 代码
+        </p>
+        <p>
+            文件
+            <!-- multiple设置文件多选 -->
+            <input type="file" name="image" id="image" multiple="multiple">
+        </p>
+        <p>
+            自我介绍:
+            <textarea name="info" id="info" cols="30" rows="10" placeholder="请书写一个200字的介绍"></textarea>
+        </p>
+        <p>
+            城市
+            <select>
+                <optgroup label="国内">
+                    <option value="">北京</option>
+                    <option value="" selected>上海</option>
+                    <option value="">广州</option>
+                    <option value="">厦门</option>
+                </optgroup>
+                <optgroup label="国外">
+                    <option value="">伦敦</option>
+                    <option value="" selected>东京</option>
+                    <option value="">纽约</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="button" value="普通按钮">
+            <input type="reset" value="重置按钮">
+            <input type="submit" value="提交按钮">
+            <input type="image" src="" alt="">
+        </p>
+    </form>
+</body>
+</html>

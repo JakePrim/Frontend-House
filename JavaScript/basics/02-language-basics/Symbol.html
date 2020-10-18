@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol类型</title>
+</head>
+<body>
+<script>
+//Symbol 的用途是确保对象属性使用唯一标识符，不会发生属性冲突。用来创建唯一记号，进而用作非字符串形式的对象属性
+//1. Symbol的基本用法
+let sym = Symbol();
+console.log(typeof sym);//symbol
+
+//2. 传入字符串参数作为对Symbol的描述，注意相同的字符串参数并不能使两个Symbol相等
+let fooSymbol = Symbol('foo');
+let otherFooSymbol = Symbol('foo');
+console.log(fooSymbol === otherFooSymbol);//false
+
+//3. Symbol()只要将其用作对象的新属性，就可以保证它不会覆盖已有的对象属性
+
+//4. Symbol()函数不能和new关键字一起作为构造函数使用，这样为了避免创建符号包装对象
+
+
+</script>
+</body>
+</html>

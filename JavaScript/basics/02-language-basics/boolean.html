@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean 类型</title>
+</head>
+<body>
+<script>
+    //Boolean布尔值：只有两个字面值：true和false 注意区分大小写的
+    let message = 'hello world';
+    let messageAsBoolean = Boolean(message);
+    console.log(messageAsBoolean);//true
+    //true 非空字符串 非零数值 任意对象 不是undefined和null,都可以转换为true值
+    if(message){
+        console.log('Value is true');
+    }
+</script>
+</body>
+</html>

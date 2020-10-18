@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>String类型</title>
+    <style>
+        .outer {
+        height: 50px;
+        }
+        .inner {
+        width: 120px;
+        height: 100px;
+        }
+        </style>
+</head>
+
+<body>
+    <input type="text" name="" id="">
+    <div class="outer" contenteditable="true">
+        <span class="inner">content</span>
+    </div>
+    <a href="">看看有没有焦点</a>
+    <script>
+        //ECMAScript 字符串可以使用双引号""  单引号'' 反引号 ``
+        //\u03a3 转义序列表示一个字符
+        let text = "This is the letter sigma: \u03a3.";
+        console.log(text.length);//28
+
+        //1. ECMAScript中的字符串是不可变的immutable 一旦创建它们的值就不能改变，要修改字符串，就需要先销毁原始的字符串，然后将新值保存到该变量
+        let lang = "Java";
+        lang = lang + "Script";
+        //整个过程：首先分配一个足够容纳10个字符的空间，然后填充上"Java"和"Script".最后销毁原始的字符串"Java"和"Script"因为这两个字符串都没有用了，所有处理都是在后台发生的，而这时一些早期的浏览器在拼接字符串时非常慢的原因，目前的浏览器的版本都有针对性地解决了这个问题
+
+        //2. 把一个值转换为字符串，几乎所有的值都有toString()方法,toString()方法可用于数值、布尔值、对象和字符串值。注意：null和undefined值没有toString方法
+        let age = 11;
+        let ageAsString = age.toString();
+        console.log(typeof ageAsString);//string
+        let found = true;
+        let fountAsString = found.toString();
+        console.log(typeof fountAsString);//string
+        //toString()方法还可以接收一个底数参数，主要用来输出数值的字符串 模式底数参数是：10
+        let num = 10;
+        console.log(num.toString());//"10"
+        console.log(num.toString(2));//"1010"
+        console.log(num.toString(8));//"12"
+        console.log(num.toString(10));//"10"
+        console.log(num.toString(16));//"a"
+
+        //3. String()转型函数，它始终会返回表示响应类型值的字符串 遵循规则：如果值有toString()方法，则调用该方法并返回结果；如果值是null，返回"null";如果值是undefined，返回"undefined"
+        let value1 = 10;
+        let value2 = true;
+        let value3 = null;
+        let value4;
+
+        console.log(String(value1));//"10"
+        console.log(String(value2));//"true"
+        console.log(String(value3));//"null"
+        console.log(String(value4));//"undefined"
+        //如果不确定一个值是不是null或undefined，可以使用String()转型函数
+
+        //4. 用加号操作符给一个值加上一个空字符串""也可以将其转换为字符串
+        let addString = 10 + "";
+        console.log(typeof addString);//"string"
+
+        //4. 模板字面量
+        //ES6新增了模板字面量定义字符串，可以保留换行字符，可以跨行定义字符串
+        let myMultiLineString = 'first line\nsecond line';
+
+        //模板字符串可以写成
+        let myMultiTemplateLiteral = `first line
+    second line`;
+        console.log(myMultiLineString);
+        console.log(myMultiTemplateLiteral);
+
+        console.log(myMultiLineString === myMultiTemplateLiteral);
+
+        //模板字面量常用于如下
+        let pageHTML = `
+    <div>
+        <a href="#">
+            <span>Jake</span>
+        </a>
+    </div>
+    `;
+        //模板字面量会保持反引号内部的空格
+        console.log(pageHTML.length);//90
+        //pageHTML模板字面量开头是一个换行符
+        console.log(pageHTML[0] === '\n');//true
+
+        //5. 字符串插值 任何JavaScript表达式都可以用于插值
+        let value = 5;
+        let exponent = 'sencond';
+        //如下字符串插值可以很方便的写在内部，而以前需要使用加号操作符进行拼接非常繁琐
+        let interpolatedTemplateLiteral =
+            `${value} to the ${exponent} power is ${value * value}`;
+        console.log(interpolatedTemplateLiteral);//5 to the sencond power is 25
+        //所有插入的值都会使用toString()强制转型为字符串
+        let foo = {toString:()=>'World'};
+        console.log(`Hello ${foo}`);//Hello World
+
+        //插值表达式中可以调用函数和方法
+        function capitalize(word){
+            return `${word[0].toUpperCase()}${word.slice(1)}`;
+        }
+        console.log(`${capitalize('hello')},${capitalize('world')}!`);//Hello,World!
+
+        //6. 模板字面量标签函数
+        //通过标签函数可以自定义插值行为 直接看例子：
+        let a = 6;
+        let b = 7;
+        function simpaleTag(strings,aValExpression,bValExpression,sumExpression){
+            console.log(strings);
+            console.log(aValExpression);
+            console.log(bValExpression);
+            console.log(sumExpression);
+            return 'foobar';
+        }
+        let untaggedResult = `${a}+${b}=${a+b}`;
+        let taggedResult = simpaleTag`${a} + ${b} = ${a+b}`;
+        console.log(untaggedResult);//6+7=13
+        console.log(taggedResult);//foobar
+
+
+    </script>
+</body>
+
+</html>

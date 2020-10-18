@@ -1,0 +1,6 @@
+@import url('./02.css');
+
+span,p{
+    font-size: 30px;
+    color: green;
+}

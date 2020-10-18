@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Null 类型</title>
+</head>
+<body>
+<script>
+    //null值表示一个空对象指针 typeof null 返回的是”object"
+    let car = null;
+    console.log(typeof car);//"object"
+    //建议定义要保存对象值的变量，使用null来初始化，不要使用其他值
+    //检查null可以知道对象是不是重新赋予了一个对象的引用
+    if(car != null){
+        console.log('car 是一个对象引用');
+    }
+    //注意：undefined值是由null值派生而来的 所以它们表面上相等==
+    console.log(null==undefined);//true
+    console.log(null===undefined);//false
+    //null是一个假值false 不过要记住 也有很多其他可能的值同样是假值
+    //所以一定要明确自己想要检测的就是null这个字面值 而不仅仅是假值
+    let message = null;
+    let age;
+    if (message) {
+        //这里不会执行
+    }
+    if (!message) {
+        console.log('null 这里会执行');
+    }
+    if (age) {
+        //这里不会执行
+    }
+    if (!age) {
+        console.log('undefined 这里会执行');
+    }
+
+</script>
+</body>
+</html>

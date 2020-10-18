@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // const man = {
+        //     name:'jscoder',
+        //     age:22
+        // }
+        // //proxy方法设计一个属性拦截获取操作 不存在的属性抛出错误
+        // const proxy = new Proxy(man,{
+        //     get: function (obj,props) {
+        //         if(props in obj){
+        //             return obj[props];
+        //         }
+        //         throw `Property ${props} does not exist`
+        //     }
+        // });
+        // console.log(proxy.name);
+        // console.log(proxy.age);
+        // console.log(proxy.location);
+
+        function red() {
+            console.log('red');
+        }
+
+        function green() {
+            console.log('green');
+        }
+
+        function yellow() {
+            console.log('yellow');
+        }
+
+        async function run() {
+            await greenPromise();
+            await yellowPromise();
+            await redPromise().then(res=>{
+                console.log('一轮执行完毕');
+                run();
+            });
+        }
+
+        const redPromise = () => new Promise((resolve, reject) => {
+            //亮起红灯
+            setTimeout(() => {
+                red();
+                resolve();
+            }, 3000);
+        });
+        const greenPromise = () => new Promise((resolve, reject) => {
+            //亮起绿灯
+            setTimeout(() => {
+                green();
+                resolve();
+            }, 1000);
+
+        });
+        const yellowPromise = () => new Promise((resolve, reject) => {
+            //亮起黄灯
+            setTimeout(() => {
+                yellow();
+                resolve();
+            }, 2000);
+        });
+        run();
+    </script>
+</body>
+
+</html>

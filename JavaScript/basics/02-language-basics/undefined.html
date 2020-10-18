@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //undefined表示声明了变量但没有初始化
+    let message;
+    console.log(message);//undefined
+    // console.log(age);//报错
+    //注意调用typeof不管是未声明变量还是 声明了变量未赋值都会返回”undefined“
+    console.log(typeof message);//undefined
+    console.log(typeof age);//undefined
+    //undefind 还是一个假值 在if语句中表示false
+    if (message) {
+        console.log('执行');
+    }
+    if(!message){
+        console.log("false 执行");
+    }
+
+</script>
+</body>
+</html>

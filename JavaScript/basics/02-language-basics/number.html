@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number类型</title>
+</head>
+
+<body>
+    <script>
+        // "use strict"
+        let intNum = 56;//整数
+
+        let octNum1 = 0o70;//八进制：56
+        // let octNum1 = 079;//无效的八进制当成整数处理
+        //注意：八进制字面量在严格模式下是无效的会抛出错误： Octal literals are not allowed in strict mode.
+        //在严格模式下要表示八进制要加上前缀：0o
+        let hexNum = 0xA;
+        //注意：JavaScript保存数值的方式，可能存在正零(+0)和负零(-0)在所有情况下都被认为是等同的
+        console.log(+0 === -0);//true
+
+        //浮点值
+        let floatNum1 = 1.1;
+        let floatNumw = 0.1;
+        let floatNum3 = 1.;//有效但是不推荐  由于存储浮点值使用的内存空间是存储整数值的两倍，所以ECMAScript会把小数点后面没有数字的情况把数值转换为整数
+        console.log(floatNum3);//1
+        //浮点值的精确度最高可达17位小数 所以0.1加0.2得到的不是0.3 而是0.300 000 000 000 000 04
+        let a = 0.1;
+        let b = 0.2;
+        console.log(a + b);
+        if (a + b == 0.3) { //这样是不正确的 不要测试某个特定的浮点值
+            console.log('You got 0.3');
+        }
+        //注意JavaScript中的数值的范围如果查出了最大值/最小值 会自动转换一个特殊的Infinity 如果无法表示的负数 -Infinity 如果无法表示的正数Infinity
+        //要确定一个值是不是有限大可以使用isFinite()函数
+        let result = Number.MAX_VALUE + Number.MAX_VALUE;
+        console.log(isFinite(result));//false
+
+        //NaN
+        //NaN是一个特殊的数值，表示”不是数值“(Not a Number)
+        //1. 0 +0 -0相除，就会返回NaN
+        console.log(0/-0);//NaN
+        console.log(0/0);//NaN
+        console.log(+0/-0);//NaN
+        //2. 如果分子是非0值，分母是有符号/无符号0 就会返回Infinity/-Infinity
+        console.log(5/0);//Infinity
+        console.log(5/-0);//-Infinity
+        //NaN有几个独特的属性
+        //1. 任何涉及NaN的操作始终返回NaN
+        console.log(NaN/10);//NaN
+        console.log(10/NaN);//NaN
+        //2. NaN不等于包括NaN在内的任何值
+        console.log(NaN==NaN);//false
+
+        //ECMAScript提供了isNaN()函数 判断是否”不是数值“
+        console.log(isNaN(NaN));//true
+        console.log(isNaN(10));//false
+        console.log(isNaN("10"));//false 10可以转换为数值
+        console.log(isNaN("blue"));//true
+        console.log(isNaN(true));//false 可以转换为数值1
+
+        //数值转换
+
+        //有三个函数 Number() parseInt()  parseFloat()
+        //Number()函数 转换规则
+        //布尔值：true -> 1 false -> 0
+        //数值直接返回
+        //null -> 0
+        //undefined 返回NaN
+        //字符串：数值字符串返回数值   空字符串返回0 特殊的”011“->11(忽略前面的0)  其他字符串返回NaN
+        //对象，调用valueOf()方法 按照上述规则转换返回的值。如果转换的结果是NaN，则调用toString()方法，在按照转换字符串的规则转换
+        console.log(Number("Hello world"));//NaN
+        console.log(Number(""));//0
+        console.log(Number("000011"));//11
+        console.log(Number(true));//1
+
+        //Number()函数转换字符串时有点复杂和反常规，在实际开发中通常优先使用parseInt()函数更专注于字符串是否包含数值模式
+        //1. 字符串最前面的空格会被忽略，从第一个非空格字符开始转换
+        //2. 如果第一个字符不是数字字符、加号、减号 会立即返回NaN 这意味着空字符串也会返回NaN，而Number()返回0
+        //3. 如果第一个字符不是规则2 会继续一次检测每个字符，直到字符末尾或碰到非数值字符”1234bule“ -> "1234" "blue"会被忽略掉，注意"22.5" -> "22" 因为小数点不是有效的整数字符
+        //4. parseInt()函数也能识别不同的整数格式(十进制、八进制(非严格模式下以”0“开头并且紧跟数值字符会按八进制处理)、十六进制)
+        console.log(parseInt("1234blue"));//1234
+        console.log(parseInt(""));//NaN
+        console.log(parseInt("0xA"));//10
+        console.log(parseInt(22.5));//22
+        console.log(parseInt("70"));//70
+        console.log(parseInt("0xf"));//15
+
+        //5. 对于不同的数值格式parseInt()提供了第二个参数，用于指定进制数
+        console.log(parseInt("AF",16));//175 告诉了parseInt这是一个16进制的字符
+        console.log(parseInt("AF"));//NaN 检测到了第一个字符是非数值字符返回NaN
+
+        //parseFloat()函数与parseInt()函数类似
+        //1. 解析到字符串末尾或者解析到一个无效的浮点数值字符为止，这就意味着第一次出现的小数点是有效的，第二次出现小数点就是无效了
+        //2. parseFloat()函数始终忽略字符串开头的零，这就意味只能就系十进制数值，其他八进制 十六进制始终返回0， 因此parseFloat没有第二个参数指定进制数
+        console.log(parseFloat("1234blue"));//1234
+        console.log(parseFloat("0xA"));//0
+        console.log(parseFloat("22.5"));//22.5
+        console.log(parseFloat("22.34.5"));//22.34
+        console.log(parseFloat("0980.5"));//908.5
+        console.log(parseFloat("0.5"));//0.5
+        console.log(parseFloat("3.125e7"));//31250000
+
+    </script>
+</body>
+
+</html>
