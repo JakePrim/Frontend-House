@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 1000px;
+            height: 100px;
+            border: 1px solid #f00;
+        }
+        .box p{
+            float: left;
+            width: 200px;
+            height: 100px;
+            margin-right: 50px;/*超出1像素子元素就会显示有问题*/
+            background-color: pink;
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            border: 10px solid #f00;
+        }
+        .box2 p{
+            /* width: 200px;  宽度不设置自动收缩 自动适应*/
+            height: 200px; /*高度不会出现 宽度自动收缩的情况*/
+            padding: 20px;
+            margin-right: 20px;
+            border: 20px dashed #00f;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+    </div>
+    <div class="box2">
+        <p>2</p>
+    </div>
+</body>
+</html>

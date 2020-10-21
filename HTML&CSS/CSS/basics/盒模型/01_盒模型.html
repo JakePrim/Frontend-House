@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;/*auto %*/
+            margin: 10px;
+            padding: 10px;
+            padding-right: 20px;/*单一属性层叠综合属性的某一边 注意顺序不能颠倒*/
+            border: 5px solid red;
+            border-width: 10px 20px 30px 40px;
+            border-top-color: purple;
+            border-top:1px solid palegreen;
+        }
+        .test{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>盒模型</p>
+        <span class="test">这是span</span> 
+    </div>
+</body>
+</html>
