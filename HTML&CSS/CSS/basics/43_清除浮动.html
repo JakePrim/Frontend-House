@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 1000px;
+            /* height: 100px; */
+            border: 10px solid red;
+            /* clear: both; */
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .box p {
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            margin-right: 10px;
+            float: left;
+        }
+        .cl {
+            clear: both;
+        }
+        .clearfix:after{
+            content: '';
+            clear: both;
+            display: block;
+            height: 0;
+            visibility: hidden;/*会保留原来占有的位置*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <!-- <div class="cl"></div> -->
+    </div>
+    <!-- 外墙法 -->
+    <!-- <div class="cl"></div> -->
+    <div class="box">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <!-- <div class="cl"></div> -->
+    </div>
+</body>
+</html>
