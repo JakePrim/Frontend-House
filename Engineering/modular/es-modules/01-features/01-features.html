@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES Module - 模块特性</title>
+</head>
+<body>
+    <!-- 通过给script标签 添加type='module'属性，就可以以ES Module的标准执行其中的JS代码 -->
+    <script type="module">
+        console.log('this is es module');
+    </script>
+
+    <!-- 1. ESM 自动采用严格模式 忽略'use strict' -->
+    <script type="module">
+        console.log(this);//undefined
+    </script> 
+
+    <!-- 2. 每个ESM 都是运行在单独的私有作用域中 -->
+    <script type="module">
+        var foo = 100;
+        console.log(foo);
+    </script>
+    <script type="module">
+        console.log(foo);//foo is not defined
+    </script>
+
+    <!-- 3.ESM是通过CORS的方式请求外部JS模块的 如果不在同源地址 必须要求请求的模块请求头提供CORS同源的请求头设置 -->
+
+    <!-- 4. ESM 的Script标签会延迟执行脚本 defer属性一致的 -->
+    <script type="module" src="demo.js"></script>
+    <p>需要显示的内容</p>
+</body>
+</html>

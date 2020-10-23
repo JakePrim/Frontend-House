@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            width: 1080px;
+            height: 50px;
+            margin: 100px auto;
+            background-color: pink;
+            list-style: none;
+        }
+        .nav li {
+            float: left;
+            width: 180px;
+            height: 50px;
+        }
+        .nav li a{
+            display: block;
+            width: 180px;
+            height: 50px;
+            font: 18px/50px "微软雅黑";
+            text-align: center;
+            background-color: skyblue;
+            color: #333;
+            text-decoration: none;
+        }
+        .nav li a:hover{
+            /*background-color: #ff0;*/
+            position: relative;
+            top: -4px;/* a标签向上移动了4像素 */
+            border-top: 4px solid gold;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+        <li><a href="">首页</a></li>
+    </ul>
+</body>
+</html>

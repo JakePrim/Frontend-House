@@ -1,0 +1,66 @@
+{
+  "name": "pages-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Always a pleasure scaffolding your awesome static sites.",
+  "keywords": [
+    "pages-boilerplate",
+    "boilerplate",
+    "pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/pages-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/zce/pages-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/pages-boilerplate.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "zce",
+    "email": "w@zce.me",
+    "url": "https://zce.me"
+  },
+  "scripts": {
+    "clean": "grunt clean",
+    "serve": "grunt serve",
+    "build": "grunt build",
+    "start": "grunt start"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "grunt": "^1.2.1",
+    "grunt-babel": "^8.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-css": "^0.5.4",
+    "grunt-sass": "^3.1.0",
+    "grunt-swig-templates": "^0.1.4",
+    "grunt-useref": "^0.0.16",
+    "load-grunt-tasks": "^5.1.0",
+    "sass": "^1.26.10"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}

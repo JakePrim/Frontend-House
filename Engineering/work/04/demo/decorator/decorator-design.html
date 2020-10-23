@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //装饰者模式
+        function fn1(){
+            console.log("fn1");
+        }
+        // fn1();
+        //在fn1函数执行之前或者之后做一件额外事情
+
+        //当前这个函数的作用是对目标函数进行一层包装
+        function hello(target){
+            // console.log("hello");
+            // target();
+            return function(){
+                console.log("hello");
+                target();
+            }
+        }
+        // hello(fn1);
+        let f = hello(fn1);
+        f();
+
+    </script>
+</body>
+</html>

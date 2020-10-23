@@ -1,0 +1,8 @@
+@import url('reset.css');
+
+body{
+    background:red;
+    /* background-image: url(./1.jpg); */
+    /* css-loader 加载资源模块 交给url-loader加载 */
+    /* background-size: cover; */
+}

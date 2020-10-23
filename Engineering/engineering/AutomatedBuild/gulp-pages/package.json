@@ -1,0 +1,54 @@
+{
+  "name": "gulp-fast-pages",
+  "version": "1.0.2",
+  "description": "gulp static web app workflow",
+  "keywords": [
+    "gulp-fast-pages",
+    "gulp-fast"
+  ],
+  "homepage": "https://github.com/JakePrim/Frontend-engineering/tree/master/engineering/AutomatedBuild/gulp-pages/",
+  "bugs": {
+    "url": "https://github.com/JakePrim/Frontend-engineering/issues"
+  },
+  "license": "MIT",
+  "author": "JakePrim",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/gulp-fast-pages.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakePrim/Frontend-engineering.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^3.1.6"
+  },
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}

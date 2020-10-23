@@ -1,0 +1,17 @@
+{
+  "name": "Gulp-Demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "gulp-fast-pages clean",
+    "build": "gulp-fast-pages build",
+    "develop": "gulp-fast-pages develop"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "gulp-fast-pages": "^1.0.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

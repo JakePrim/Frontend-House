@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 200px;
+            margin: 100px;
+        }
+        .box p{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            background-color: skyblue;
+        }
+
+        .box .para {
+            left: 100px;
+            top: 100px;
+            right: -100px;
+            bottom: -100px;
+            position: relative;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>1</p>
+        <p>2</p>
+        <p class="para">3</p>
+        <p>4</p>
+    </div>
+</body>
+</html>
