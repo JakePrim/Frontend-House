@@ -2,393 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33bbaee8-8846-46bf-88fc-d6f0b2dde61b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Engineering/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Grunt/gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Grunt/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Grunt/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Grunt/src/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Grunt/src/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Grunt/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/pages.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/fonts/pages.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/fonts/pages.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/fonts/pages.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/fonts/pages.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/images/brands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/styles/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/styles/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/styles/demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/assets/styles/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/features.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/layouts/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/partials/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp-Demo/src/partials/tags.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp/normailze.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp/normailze.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp/src/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp/temp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp/temp1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/Gulp/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/demo/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/demo/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/demo/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/demo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/demo/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/demo/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/gulp-pages/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/gulp-pages/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/gulp-pages/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/gulp-pages/bin/gulp-fast-pages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/gulp-pages/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/gulp-pages/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/gulp-pages/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/fonts/pages.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/fonts/pages.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/fonts/pages.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/fonts/pages.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/images/brands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/styles/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/styles/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/assets/styles/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/layouts/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-grunt/src/partials/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/assets/scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/assets/scripts/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/assets/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/assets/styles/vendor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/layouts/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.tmp/partials/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/fonts/pages.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/fonts/pages.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/fonts/pages.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/fonts/pages.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/images/brands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/styles/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/styles/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/assets/styles/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/layouts/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/AutomatedBuild/pages-boilerplate-gulp/src/partials/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/plop-templates/component.css.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/plop-templates/component.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/plop-templates/component.test.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/plopfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/src/component/My Component/My Component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/src/component/My Component/My Component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/src/component/My Component/My Component.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/src/component/Test/Test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/src/component/Test/Test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/src/component/Test/Test.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/src/component/footer/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Plop/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/.yo-rc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/lib/__tests__/hello.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/lib/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-hello/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/.yo-rc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/app/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/app/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/app/scripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/app/styles/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/modernizr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/test/spec/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/Yo-webapp/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/store/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/store/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/store/state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/generators/app/templates/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-j-vue/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-sample/generators/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-sample/generators/app/templates/bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-sample/generators/app/templates/foo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-sample/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/generator-sample/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/foo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/store/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/store/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/store/state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/Yeoman/my-object/temp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/custom-staging/cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/custom-staging/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/custom-staging/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/custom-staging/templates/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/custom-staging/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/staging-obj/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/engineering/ScaffoldingTools/staging-obj/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/01-features/01-features.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/01-features/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/02-export/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/02-export/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/02-export/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/03-attention/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/03-attention/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/03-attention/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/04-import/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/04-import/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/04-import/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/04-import/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/05-export-import/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/05-export-import/components/avatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/05-export-import/components/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/05-export-import/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/05-export-import/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/05-export-import/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/06-polyfill/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/modular/es-modules/06-polyfill/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/output/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/src/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/src/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/src/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/src/heading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/src/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/01-starting-loader/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/02-md-loader/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/02-md-loader/markdown-loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/02-md-loader/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/02-md-loader/src/about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/02-md-loader/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/02-md-loader/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/02-md-loader/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/public/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/src/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/src/heading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/src/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/03-webpack-plugin/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/public/other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/src/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/src/heading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/04-webpack-dev-server/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/public/other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/src/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/src/heading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/05-source-map/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/public/other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/src/editior.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/src/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/src/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/src/heading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/06-HMR/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/public/other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/src/editior.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/src/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/src/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/src/heading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/07-environment-config/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/public/other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/src/editior.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/src/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/src/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/src/heading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/src/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/webpack.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/webpack.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/08-merge-config/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/09-define-plugin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/09-define-plugin/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/09-define-plugin/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/09-define-plugin/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/learn-01-getter/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/learn-01-getter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/learn-01-getter/src/data/kk.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/learn-01-getter/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/learn-01-getter/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/learn-01-getter/src/libs/fn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/learn-01-getter/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/webpack/learn-01-getter/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/src/css/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/src/fn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/src/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/01/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/02/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/02/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/02/src/css/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/02/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/02/template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/02/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/03/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/03/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/03/src/libs/Drag.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/03/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/03/template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/03/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/03/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/demo/decorator/decorator-design.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/demo/decorator/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/demo/decorator/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/demo/decorator/src/1.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/demo/decorator/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/work/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/work/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/work/src/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/work/src/controllers/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/work/src/controllers/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/work/src/kkb/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/work/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engineering/work/04/work/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/45_背景应用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/46_背景应用-padding背景图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/47_背景应用-精灵图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/48_新增背景属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/49_相对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/50_相对定位应用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/51_绝对定位.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/52_绝对定位-祖先参考.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/55_静态轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/56_复写静态轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS3/01_子级选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS3/02_兄弟选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS3/03_结果伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS3/04_伪元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS3/05_属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS3/06_box-sizing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS3/07_文字阴影.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/HTML5/01_标签语义化.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/HTML5/02_音频标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/HTML5/03_视频标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/HTML5/04_新增input表单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/media/snow.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/media/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/40_字围现象.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/40_字围现象.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/44_背景.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/44_背景.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/45_背景应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/45_背景应用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/46_背景应用-padding背景图.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/46_背景应用-padding背景图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/47_背景应用-精灵图.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/47_背景应用-精灵图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/48_新增背景属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics/48_新增背景属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/bg4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/bg4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/cat1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/cat1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/hai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/hai.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/huge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/huge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/in_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/in_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/in_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/in_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/lunbo/c1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/lunbo/c1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/lunbo/c2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/lunbo/c2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/lunbo/c3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/lunbo/c3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/lunbo/c4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/lunbo/c4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/lunbo/c5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/lunbo/c5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/lunbo/c6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/lunbo/c6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/meng.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/meng.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/s.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/tree.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/tree.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/效果图.png" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/效果图.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/CSS/images/文字.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/images/文字.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/Symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/Symbol.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,7 +65,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jAytwdkk4Ws8xGjBkp9JRFdm9X" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -420,43 +79,49 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML&amp;CSS/CSS3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/CSS3" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/HTML5" />
       <recent name="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.51_绝对定位.html">
-    <configuration name="47_背景应用-精灵图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FrontendHouse/HTML&amp;CSS/CSS/basics/47_背景应用-精灵图.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.07_文字阴影.html">
+    <configuration name="03_结果伪类选择器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/CSS3/03_结果伪类选择器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="48_新增背景属性.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FrontendHouse/HTML&amp;CSS/CSS/basics/48_新增背景属性.html" useBuiltInWebServerPort="true">
+    <configuration name="04_伪元素选择器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/CSS3/04_伪元素选择器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="49_相对定位.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FrontendHouse/HTML&amp;CSS/CSS/basics/49_相对定位.html" useBuiltInWebServerPort="true">
+    <configuration name="05_属性选择器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/CSS3/05_属性选择器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="50_相对定位应用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FrontendHouse/HTML&amp;CSS/CSS/basics/50_相对定位应用.html" useBuiltInWebServerPort="true">
+    <configuration name="06_box-sizing.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/CSS3/06_box-sizing.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="51_绝对定位.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FrontendHouse/HTML&amp;CSS/CSS/basics/51_绝对定位.html" useBuiltInWebServerPort="true">
+    <configuration name="07_文字阴影.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/CSS3/07_文字阴影.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.51_绝对定位.html" />
-        <item itemvalue="JavaScript Debug.50_相对定位应用.html" />
-        <item itemvalue="JavaScript Debug.49_相对定位.html" />
-        <item itemvalue="JavaScript Debug.48_新增背景属性.html" />
-        <item itemvalue="JavaScript Debug.47_背景应用-精灵图.html" />
+        <item itemvalue="JavaScript Debug.07_文字阴影.html" />
+        <item itemvalue="JavaScript Debug.06_box-sizing.html" />
+        <item itemvalue="JavaScript Debug.05_属性选择器.html" />
+        <item itemvalue="JavaScript Debug.04_伪元素选择器.html" />
+        <item itemvalue="JavaScript Debug.03_结果伪类选择器.html" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +134,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603261408916</updated>
       <workItem from="1603261410040" duration="489000" />
-      <workItem from="1603375775170" duration="4735000" />
+      <workItem from="1603375775170" duration="4795000" />
+      <workItem from="1603442402897" duration="1691000" />
+      <workItem from="1603525387840" duration="11701000" />
     </task>
     <servers />
   </component>
@@ -480,6 +147,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1388" height="232" key="GridCell.Tab.0.bottom" timestamp="1603451387335">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1388" height="232" key="GridCell.Tab.0.bottom/0.23.1440.877/-359.-1057.1920.1057@0.23.1440.877" timestamp="1603451387335" />
+    <state width="1388" height="232" key="GridCell.Tab.0.center" timestamp="1603451387334">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1388" height="232" key="GridCell.Tab.0.center/0.23.1440.877/-359.-1057.1920.1057@0.23.1440.877" timestamp="1603451387334" />
+    <state width="1388" height="232" key="GridCell.Tab.0.left" timestamp="1603451387333">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1388" height="232" key="GridCell.Tab.0.left/0.23.1440.877/-359.-1057.1920.1057@0.23.1440.877" timestamp="1603451387333" />
+    <state width="1388" height="232" key="GridCell.Tab.0.right" timestamp="1603451387334">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1388" height="232" key="GridCell.Tab.0.right/0.23.1440.877/-359.-1057.1920.1057@0.23.1440.877" timestamp="1603451387334" />
     <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1603378156675">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -488,9 +171,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="dock-window-2/0.23.1440.877/1440.-86.1920.1057@0.23.1440.877" timestamp="1603378156679" />
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1603409471702">
+    <state x="350" y="31" width="740" height="861" key="find.popup" timestamp="1603619317943">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="350" y="31" width="740" height="861" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1603619317943" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1603756060426">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-109.1920.1080@0.0.1440.900" timestamp="1603409471702" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-109.1920.1080@0.0.1440.900" timestamp="1603756060426" />
+    <state x="301" y="23" width="838" height="1006" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603619249492" />
   </component>
 </project>

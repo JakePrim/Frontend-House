@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* 选中box1中第一个子元素 */
+        .box1 :first-child {
+            background-color: pink;
+        }
+        /* 选中box1中最后一个子元素 */
+        .box1 :last-child {
+            background-color: yellowgreen;
+        }
+        /* 选中box1中的第n个元素 */
+        .box1 :nth-child(2) {
+            background-color: red;
+        }
+        /* 选中box1中的偶数个数的子元素 */
+        /*.box1 :nth-child(even){*/
+        /*    background-color: #0c5460;*/
+        /*}*/
+
+        /* 根据p元素重新划分类型 */
+        .box1 p:first-of-type {
+            background-color: #0c5460;
+        }
+        .box1 p:nth-of-type(3) {
+            background-color: #01a7ff;
+        }
+        /* 根据h2元素重新划分类型 */
+        .box1 h2:last-of-type {
+            background-color: #1c7430;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <h2>标题</h2>
+    <p>段落1</p>
+    <h2>标题</h2>
+    <p>段落2</p>
+    <p>段落3</p>
+    <p>段落4</p>
+</div>
+</body>
+</html>

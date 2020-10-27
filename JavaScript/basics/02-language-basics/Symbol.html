@@ -18,8 +18,34 @@ let otherFooSymbol = Symbol('foo');
 console.log(fooSymbol === otherFooSymbol);//false
 
 //3. Symbol()只要将其用作对象的新属性，就可以保证它不会覆盖已有的对象属性
+let obj = {
+    fooSymbol : true
+}
+const newSymbol = Symbol('foo');
+Object.assign(obj,{
+    newSymbol:false
+})
+console.log(obj)
 
 //4. Symbol()函数不能和new关键字一起作为构造函数使用，这样为了避免创建符号包装对象
+
+//5. 全局符号注册表
+let fooGlobalSymbol = Symbol.for('foo');//创建新符号 可以根据foo重用符号实例
+let newGlobalSymbol = Symbol.for('foo');//重用已有符号
+console.log(fooGlobalSymbol === newGlobalSymbol);//true
+//注意Symbol('foo') !== Symbol.for('foo') Symbol.for()参数的任何值都会被转换为字符串注册表中的键也会被用作
+//符号描述符
+console.log(fooGlobalSymbol);//Symbol(foo)
+
+//6. Symbol.keyFor()查询全局注册表 这个方法接受的是Symbol实例
+let s = Symbol.for('soo');//创建全局符号
+console.log(Symbol.keyFor(s));//soo
+
+let s2 = Symbol('s2oo');//创建普通的符号
+console.log(Symbol.keyFor(s2));//undefined
+
+//如果keyFor()传递的不是符号 会抛出错误
+// Symbol.keyFor(123);//TypeError: 123 is not a symbol
 
 
 </script>

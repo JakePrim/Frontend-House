@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+        .box p {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: skyblue;
+        }
+        /* box盒子内部添加伪元素 */
+        .box::before {
+            content: "before";
+            height: 50px;
+            background-color: pink;
+            display: block;
+        }
+        .box::after {
+            content: "after";
+            height: 50px;
+            background-color: pink;
+            display: block;
+        }
+        .ps::first-letter {
+            color: red;
+        }
+        .ps::first-line {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <p class="ps">这个一个段落内容</p>
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box1{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border: 10px solid red;
+            padding: 10px;
+        }
+        .box2 {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border: 10px solid red;
+            padding: 10px;
+        }
+
+        .box3 {
+            position: fixed;
+            width: 160px;
+            height: 160px;
+            border: 10px solid red;
+            padding: 10px;
+        }
+        p {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 30px;
+            height: 30px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <div class="box2">
+        <div class="box3"></div>
+        <p></p>
+    </div>
+</div>
+
+</body>
+</html>

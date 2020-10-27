@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*相邻兄弟选择器*/
+        .box1 h2 + p {
+            background-color: pink;
+        }
+        /*p + p {*/
+        /*    color: red;*/
+        /*}*/
+        /* 其他兄弟选择器 */
+        .box2 h2 ~ p {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <h2>标题</h2>
+    <div>内容</div>
+    <p>段落1</p>
+    <p>段落2</p>
+    <p>段落3</p>
+    <p>段落4</p>
+</div>
+<div class="box2">
+    <p>段落0</p>
+    <h2>标题</h2>
+    <div>内容</div>
+    <p>段落1</p>
+    <p>段落2</p>
+    <p>段落3</p>
+    <p>段落4</p>
+</div>
+</body>
+</html>
