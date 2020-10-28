@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            /* 过渡属性： */
+            /*transition: all 2s ease-in 0s;*/
+            transition: all 2s cubic-bezier(0.65,-0.14, 0.36, 1) 0s;
+        }
+        .box:hover {
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

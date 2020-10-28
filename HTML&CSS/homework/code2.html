@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3动画</title>
+    <!--
+     使用@keyframes和animation实现一个元素先水平向右移动500px，
+     然后向下移动500px，然后向左移动500px，最后向上500px回到原位，
+     5S完成动画并一直重复
+     -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: pink;
+            margin: 100px 0;
+            animation: move 5s ease infinite;
+            -webkit-animation: move 5s ease infinite;
+        }
+        @keyframes move {
+            0% {
+                transform: translate(0,0);
+                -webkit-transform: translate(0,0);
+            }
+            25% {
+                transform: translate(500px);
+                -webkit-transform: translate(500px);
+            }
+            50% {
+                transform: translate(500px,500px);
+                -webkit-transform: translate(500px,500px);
+            }
+            75% {
+                transform: translate(0,500px);
+                -webkit-transform: translate(0,500px);
+            }
+            100% {
+                transform: translate(0,0);
+                -webkit-transform: translate(0,0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

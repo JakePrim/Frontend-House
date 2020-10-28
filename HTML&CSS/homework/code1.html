@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实现盒子水平居中</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* margin auto的方式实现水平居中 */
+        .box1 {
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            background-color: pink;
+        }
+        /* 子绝父相的水平居中方式 */
+        .box2 {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+
+        .box2 p {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 50%;
+            margin-left: -50px;
+            background-color: skyblue;
+            text-align: center;
+        }
+        /* transform的水平居中方式 */
+        .box3{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+            border: 1px solid yellowgreen;
+        }
+        .box3 p {
+            position: absolute;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            background-color: #1c7430;
+            transform: translateX(-50%);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+
+</div>
+<div class="box2">
+    <p>box</p>
+</div>
+<div class="box3">
+    <p>box</p>
+</div>
+</body>
+</html>

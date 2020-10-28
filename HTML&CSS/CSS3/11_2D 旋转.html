@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 632px;
+            height: 340px;
+            border: 1px solid #000;
+            margin: 100px auto;
+        }
+        .box img {
+            /* 先旋转后位移 */
+            /*transform: rotate(30deg) translate(150px);*/
+            /* 先位移后旋转 */
+            transform: translate(150px) rotate(30deg) ;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <img src="../images/meng.jpg" alt="">
+</div>
+</body>
+</html>

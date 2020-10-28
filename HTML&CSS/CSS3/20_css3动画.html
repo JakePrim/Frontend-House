@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 200px auto;
+            background-color: skyblue;
+            /* 绑定动画 */
+            /*animation: move 2s linear 3 2s;*/
+            animation: move2 2s linear infinite;
+        }
+        /* 自定义动画，过程 */
+        @keyframes move {
+            /* 从头开始 保持跟默认样式的状态一致 */
+            from {
+                transform: translateY(0);
+            }
+            /* 结束位置 */
+            to {
+                transform: translateY(150px);
+            }
+        }
+        /* 百分比自定义动画,细节 */
+        @keyframes move2 {
+            0% {
+                transform: translateY(0);
+            }
+            25% {
+                transform: translateY(150px);
+            }
+            50% {
+                transform: translateY(0px);
+            }
+            75% {
+                transform: translateY(-150px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
