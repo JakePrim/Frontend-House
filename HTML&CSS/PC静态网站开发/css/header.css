@@ -1,0 +1,170 @@
+/* header 样式 */
+.header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #32373e;
+}
+
+.header_c {
+    height: 40px;
+}
+
+.header_c .header-left {
+    float: left;
+}
+
+/*logo 部分*/
+.header_c .header-left .logo {
+    /*改变元素加载模式*/
+    float: left;
+    /*盒模型属性*/
+    width: 43px;
+    height: 31px;
+    padding-top: 9px;
+    margin-right: 34px;
+}
+
+.header_c .header-left .logo a {
+    display: block;
+    width: 43px;
+    height: 21px;
+    text-indent: -999em;
+    overflow: hidden;
+    background: url("../images/logo.png") no-repeat 0 0;
+}
+
+/*切换城市部分*/
+.header_c .header-left .city {
+    float: left;
+    width: 111px;
+    height: 40px;
+    margin-right: 33px;
+    cursor: pointer;
+}
+
+.header_c .header-left .city span {
+    color: #0dca9f;
+    margin-right: 12px;
+}
+
+.header_c .header-left .city i {
+    font-size: 12px;
+    color: #afb5c0;
+}
+
+.header_c .header-left .city:hover i {
+    color: #fff;
+}
+
+/* 左侧导航部分 */
+.header_c .header-left .nav {
+    float: left;
+}
+
+.header_c .header-left .nav li {
+    float: left;
+}
+
+.header_c .header-left .nav li a {
+    position: relative;
+    display: block;
+    padding: 0 21px;
+    color: #afb5c0;
+}
+
+.header_c .header-left .nav li a:hover {
+    color: #fff;
+}
+
+.header_c .header-left .nav li.current a {
+    color: #fff;
+    background: #24282c;
+}
+
+.header_c .header-left .nav li a .tips {
+    position: absolute;
+    top: 3px;
+    right: -2px;
+    width: 29px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #ff7452;
+    border-radius: 9px;
+}
+
+/* 右侧导航部分 */
+.header_c .header-right {
+    float: right;
+}
+
+.header_c .header-right a {
+    float: left;
+    color: #afb5c0;
+}
+
+.header_c .header-right a:hover {
+    color: #fff;
+}
+
+.header_c .header-right .upload {
+    margin-right: 23px;
+}
+
+.header_c .header-right .position {
+    margin-right: 66px;
+}
+
+.header_c .header-right .login {
+    position: relative;
+}
+
+.header_c .header-right .login i {
+    position: absolute;
+    top: 11px;
+    left: -26px;
+    width: 18px;
+    height: 18px;
+    background: url("../images/sprite_01.png") no-repeat -76px -136px;
+}
+
+.header_c .header-right .login:hover i {
+    background-position: -76px -174px;
+}
+
+.header_c .header-right span {
+    float: left;
+    padding: 0 8px;
+    color: #5e5a50;
+}
+
+.header_c .header-right .register {
+    margin-right: 52px;
+}
+
+.header_c .header-right .app {
+    position: relative;
+    margin-right: 20px;
+    color: #00c295;
+}
+
+.header_c .header-right .app:hover {
+    color: #81deaf;
+}
+
+.header_c .header-right .app i {
+    position: absolute;
+    top: 11px;
+    left: -20px;
+    width: 12px;
+    height: 18px;
+    background: url("../images/sprite_01.png") no-repeat -64px -212px;
+}
+
+.header_c .header-right .app:hover i {
+    background-position: -96px -212px;
+}
+

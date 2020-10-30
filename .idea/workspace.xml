@@ -2,11 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33bbaee8-8846-46bf-88fc-d6f0b2dde61b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/code3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/code4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/圆形路径动画-方案1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/arrow_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/arrow_down_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/backtop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_arrow_left_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/banner_arrow_right_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/bar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/bg_arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/bg_arrow_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/chat_ewm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_after2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_akasuo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_aloha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_bubugao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_caixun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_cfca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_fanwei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_guoke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_honglian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_huixiaoer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_jianxin.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_jiuwu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_kuaishou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_leqee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_letang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_liantong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_mashang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_meituan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_meiyou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_play.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_sanqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_shopee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_tongcheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_wangji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_weibo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_weimeng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_xiangyu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_xichuang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_yiliu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_yizhao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_zhonglan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/company_logo_zijie.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/direct-recruit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/footer_lagou_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/icon_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/it_bottom_v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/logo_ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/main_list_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/mini_pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/more_arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/more_arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/sprite_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/sprite_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/text_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images/wanba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +94,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -38,7 +116,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML&amp;CSS/CSS3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,21 +129,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/CSS3" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/images" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/HTML5" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/CSS/basics" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HTML&amp;CSS" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/CSS3" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/images" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/HTML5" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.圆形路径动画-方案1.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="圆形路径动画-方案1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/圆形路径动画-方案1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="17_3D 旋转.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/CSS3/17_3D 旋转.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/1.html" useBuiltInWebServerPort="true">
@@ -76,13 +153,16 @@
     <configuration name="code4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/code4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/PC静态网站开发/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.圆形路径动画-方案1.html" />
         <item itemvalue="JavaScript Debug.code4.html" />
         <item itemvalue="JavaScript Debug.code3.html" />
         <item itemvalue="JavaScript Debug.1.html" />
-        <item itemvalue="JavaScript Debug.17_3D 旋转.html" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +184,9 @@
       <workItem from="1603851331854" duration="233000" />
       <workItem from="1603852153434" duration="41000" />
       <workItem from="1603852215878" duration="2984000" />
-      <workItem from="1603868034015" duration="8990000" />
+      <workItem from="1603868034015" duration="9710000" />
+      <workItem from="1603977772128" duration="59000" />
+      <workItem from="1603977851673" duration="6410000" />
     </task>
     <servers />
   </component>
@@ -148,10 +230,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="350" y="31" width="740" height="861" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1603619317943" />
-    <state x="42" y="-1057" width="1118" height="1213" key="search.everywhere.popup" timestamp="1603874486359">
-      <screen x="-359" y="-1057" width="1920" height="1057" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1603983259561">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-109.1920.1080@0.0.1440.900" timestamp="1603811932926" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-109.1920.1080@0.0.1440.900" timestamp="1603983259561" />
     <state x="42" y="-1057" width="1118" height="1213" key="search.everywhere.popup/0.23.1440.877/-359.-1057.1920.1057@-359.-1057.1920.1057" timestamp="1603874486359" />
     <state x="301" y="23" width="838" height="1006" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603619249492" />
   </component>

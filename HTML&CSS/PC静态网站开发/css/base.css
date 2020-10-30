@@ -1,0 +1,23 @@
+/* 初始化样式 */
+body {
+    /* 设置全局的字体样式 */
+    font-size: 14px;
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", "SimSun", "Arial", "Helvetica Neue", "Helvetica", serif;
+    color: #333;
+}
+
+/* a标签的公共样式 */
+a {
+    color: #555555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00b38a;
+}
+
+/* 公共样式 版心*/
+.inner_c {
+    width: 1200px;
+    margin: 0 auto;
+}
