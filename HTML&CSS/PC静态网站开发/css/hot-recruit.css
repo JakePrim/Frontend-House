@@ -1,0 +1,97 @@
+/*热门职位的样式*/
+.hot-recruit .detail ul li .top{
+    width: 100%;
+    height: 105px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.hot-recruit .detail ul li .top .position{
+    height: 22px;
+    line-height: 22px;
+}
+
+.hot-recruit .detail ul li .top .position .name {
+    float: left;
+    height: 22px;
+    max-width: 123px;
+    font-size: 16px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hot-recruit .detail ul li .top .position .time{
+    float: left;
+    color: #999999;
+    font-size: 14px;
+}
+
+.hot-recruit .detail ul li .top .position .chat-me {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    background: url("../images/icon_chat.png") no-repeat;
+    cursor: pointer;
+}
+
+.hot-recruit .detail ul li .top .position .salary {
+    float: right;
+    color: #fa6041;
+}
+
+.hot-recruit .detail ul li .top .info{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    color: #777;
+}
+
+.hot-recruit .detail ul li .top .labels{
+    height: 28px;
+}
+
+.hot-recruit .detail ul li .top .labels span{
+    float: left;
+    width: 71px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    margin-right: 10px;
+    color: #999999;
+    border-radius: 3px;
+}
+
+/*底部区域*/
+.hot-recruit .detail ul li .bottom {
+    padding-top: 18px;
+    height: 40px;
+    width: 100%;
+}
+
+.hot-recruit .detail ul li .bottom dt{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+.hot-recruit .detail ul li .bottom dt img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.hot-recruit .detail ul li .bottom dd{
+    float: left;
+    line-height: 20px;
+}
+
+.hot-recruit .detail ul li .bottom dd h4{
+    color: #555555;
+}
+
+.hot-recruit .detail ul li .bottom dd p {
+    color: #999999;
+}

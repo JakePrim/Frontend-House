@@ -1,0 +1,101 @@
+/*tab的公共样式*/
+.content .module-tabs {
+    width: 100%;
+    margin-top: 37px;
+    margin-bottom: 54px;
+}
+
+.content .module-tabs .title{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.content .module-tabs .title span {
+    float: left;
+    height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    color: #999999;
+    margin-right: 58px;
+    cursor: pointer;
+}
+
+.content .module-tabs .title span.current {
+    border-bottom: 2px solid #333333;
+    color: #333333;
+}
+
+/*热点提示tips样式*/
+.content .module-tabs .hot-tips {
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 18px;
+}
+
+.content .module-tabs .hot-tips i{
+    float: left;
+    margin-right: 14px;
+    background: #e6e6e6;
+    color: #FFFFFF;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.content .module-tabs .hot-tips span{
+    color: #999999;
+    float: left;
+    margin-right: 20px;
+}
+
+.content .module-tabs .hot-tips a{
+    float: left;
+    color: #00b38a;
+}
+
+/*公共的detail部分*/
+.content .module-tabs .detail{
+    width: 100%;
+    overflow: hidden;
+}
+
+.content .module-tabs .detail ul{
+    width: 1220px;/*宽度给多一些否则li会无法撑满一行 因为每个l设置了右边距i*/
+    overflow: hidden;
+    display: none;
+}
+
+.content .module-tabs .detail ul.current {
+    display: block;
+}
+
+.content .module-tabs .detail ul li{
+    float: left;
+    width: 351px;
+    height: 178px;
+    padding: 20px 18px 0;
+    border: 1px solid #eaeeed;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+/* 查看更多的公共样式 */
+.content .module-tabs .more {
+    display: block;
+    width: 378px;
+    height: 42px;
+    border: 1px solid #00b38a;
+    margin: 0 auto;
+    line-height: 42px;
+    text-align: center;
+    color: #66b48b;
+    font-size: 16px;
+}
+
+.content .module-tabs .more:hover{
+    background: #66b48b;
+    color: #fff;
+}

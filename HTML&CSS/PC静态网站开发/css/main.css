@@ -1,0 +1,123 @@
+/*主要内容区域的分类和焦点图*/
+.content .main {
+    height: 376px;
+    padding-top: 33px;
+    width: 100%;
+}
+
+/* 侧边栏部分 */
+.content .main .aside {
+    float: left;
+    width: 306px;
+    height: 376px;
+}
+
+.content .main .aside .classify {
+    width: 100%;
+    height: 100%;
+}
+
+.content .main .aside .classify li{
+    position: relative;
+    width: 100%;
+    height: 47px;
+    line-height: 47px;
+}
+
+.content .main .aside .classify li h2{
+    float: left;
+    margin-right: 12px;
+}
+
+.content .main .aside .classify li p{
+    float: left;
+}
+
+.content .main .aside .classify li p a{
+    float: left;
+    margin-right: 24px;
+}
+
+.content .main .aside .classify li p a:hover {
+    text-decoration: underline;
+}
+
+.content .main .aside .classify li b {
+    position: absolute;
+    right: 8px;
+    top: 18px;
+    width: 6px;
+    height: 11px;
+    background: url("../images/main_list_arrow.png") no-repeat 0 0;
+}
+
+/* 焦点图片部分 */
+.content .main .banner {
+    position: relative;
+    float: right;
+    width: 860px;
+    height: 346px;
+    margin-top: 13px;
+    overflow: hidden;
+}
+.content .main .banner ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 6000px;/*足够的宽度包裹所有的图片*/
+    height: 346px;
+}
+
+.content .main .banner ul li{
+    float: left;/*所有图片左浮动*/
+    width: 840px;
+    height: 346px;
+}
+
+.content .main .banner .btn span{
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    background: url("../images/banner_arrow_left.png") no-repeat center center;
+    cursor: pointer;
+}
+
+.content .main .banner .btn .right-btn{
+    right: 0;
+    background-image: url("../images/banner_arrow_right.png");
+}
+
+.content .main .banner .btn .right-btn:hover{
+    background-image: url("../images/banner_arrow_right_highlight.png");
+}
+
+.content .main .banner .btn .left-btn:hover{
+    background-image: url("../images/banner_arrow_left_highlight.png");
+}
+
+.content .main .banner ol {
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    height: 6px;
+    width: 75px;
+    margin-left: -37.5px;
+}
+.content .main .banner ol li{
+    float: left;
+    width: 7px;
+    height: 6px;
+    margin: 0 4px;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.4);
+}
+
+.content .main .banner ol li.current {
+    width: 13px;
+    margin: 0 1px;
+    background: #ffffff;
+}
+
+

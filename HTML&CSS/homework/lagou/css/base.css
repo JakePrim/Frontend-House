@@ -1,0 +1,13 @@
+body {
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", "SimSun", "Arial", "Helvetica Neue", "Helvetica", serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+/**
+    设置版心
+ */
+.inner_c{
+    width: 1200px;
+    margin: 0 auto;
+}
