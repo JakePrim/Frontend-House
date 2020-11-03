@@ -1,0 +1,38 @@
+/*header nav2 样式*/
+.nav {
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    font-size: 16px;
+    line-height: 80px;
+}
+
+.nav-c {
+    height: 80px;
+}
+
+.nav-c .logo {
+    float: left;
+    height: 20px;
+    width: 115px;
+    margin-top: 28px;
+    margin-right: 114px;
+}
+
+.nav-c .logo a {
+    display: block;
+    width: 115px;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url("../images/logo.png") no-repeat 0 0;
+}
+
+.nav-c ul {
+    float: left;
+}
+
+.nav-c ul li {
+    float: left;
+    margin-right: 35px;
+}

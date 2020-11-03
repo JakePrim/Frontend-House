@@ -1,0 +1,16 @@
+{
+  "name": "designpatterns",
+  "version": "1.0.0",
+  "description": "javascript-设计模式",
+  "main": "single.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config ./webpack.dev.config.js --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  }
+}

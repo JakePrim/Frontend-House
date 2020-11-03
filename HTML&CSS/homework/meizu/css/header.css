@@ -1,0 +1,43 @@
+/*header 样式*/
+.header {
+    width: 100%;
+    height: 40px;
+    background: #fafafc;
+}
+.header-c {
+    height: 100%;
+}
+/*header nav1样式*/
+.header-c .nav1{
+    height: 40px;
+    line-height: 40px;
+    color: #666666;
+    font-size: 12px;
+}
+
+.header-c .nav1 .left {
+    float: left;
+}
+
+.header-c .nav1 .left ul li {
+    float: left;
+    margin-right: 45px;
+}
+
+.header-c .nav1 .right {
+    float: right;
+}
+
+.header-c .nav1 .right ul li {
+    float: left;
+    margin-right: 40px;
+}
+
+.header-c .nav1 .right ul li .new {
+    background: #ed4462;
+    color: #ffffff;
+    margin-left: 2px;
+    border-radius: 2px;
+    padding: 1px;
+}
+

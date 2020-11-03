@@ -1,0 +1,116 @@
+/*main 样式*/
+.content .main{
+    height: 480px;
+    width: 100%;
+    position: relative;
+}
+
+/*banner部分*/
+.content .main .banner{
+    position: relative;
+    height: 480px;
+    margin: auto;
+}
+.content .main .swiper-banner {
+    position: relative;
+    overflow: hidden;
+    height: 480px;
+    width: 100%;
+}
+
+.content .main .swiper-banner .swiper .swiper-slide{
+    width: 100%;
+    height: 480px;
+    float: left;
+}
+
+.content .main .swiper-banner .swiper .swiper-slide a{
+    display: block;
+    width: 100%;
+    height: 480px;
+}
+
+.content .main .swiper-banner .swiper .swiper-slide img{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.content .main .banner .btn{
+    position: absolute;
+    width: 996px;
+    left: 244px;
+    top: 50%;
+    margin-top: -15px;
+}
+.content .main .banner .btn span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.content .main .banner .btn .left-btn {
+    float: left;
+}
+.content .main .banner .btn .right-btn{
+    float: right;
+}
+
+.content .main .banner ol{
+    position: absolute;
+    bottom: 8px;
+    right: 498px;
+    margin-right: -55px;
+    width: 110px;
+    height: 10px;
+}
+.content .main .banner ol li.current{
+    border: 1px solid #00c3f5;
+    background: #00c3f5;
+}
+
+.content .main .banner ol li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/*侧边栏样式*/
+.content .main .aside{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    float: left;
+    height: 480px;
+    width: 244px;
+    background: #e4dcf9;
+}
+
+.content .main .aside .classify {
+    width: 100%;
+    height: 100%;
+    padding-top: 13px;
+}
+
+.content .main .aside .classify li{
+    position: relative;
+    height: 54px;
+    line-height: 54px;
+    padding-left: 28px;
+    color: #3a3a3a;
+}
+
+.content .main .aside .classify li:hover{
+    /*TODO*/
+}
+
+
+

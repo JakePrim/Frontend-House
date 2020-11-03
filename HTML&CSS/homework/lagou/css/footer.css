@@ -1,0 +1,170 @@
+/*footer样式*/
+.footer {
+    width: 100%;
+    height: 138px;
+    padding-top: 49px;
+    padding-bottom: 66px;
+    background-color: #fff;
+}
+
+.footer .footer-c {
+    height: 100%;
+}
+
+.footer-c .login-method .social{
+    width: 180px;
+}
+
+.footer-c .login-method .social .wx img{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 160px;
+    height: 160px;
+    border: 1px solid #999999;
+}
+
+.footer-c .login-method .social .wx{
+    float: left;
+    position: relative;
+}
+
+.footer-c .login-method .social .wx i{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: center;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+    left: 0;
+    background: url("../images/sprite_02.png") no-repeat -113px -183px;
+}
+
+.footer-c .login-method .social .wx:hover i{
+    background-position: -113px -220px;
+}
+.footer-c .login-method .social .wx:hover img{
+    display: block;
+}
+
+.footer-c .login-method .social .wb{
+    float: right;
+}
+
+.footer-c .login-method .social .wb i{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: center;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+    left: 0;
+    background: url("../images/sprite_02.png") no-repeat -212px -20px;
+}
+
+.footer-c .login-method .social .wb:hover i{
+    background-position: -171px -20px;
+}
+
+.footer .footer-c .login-method {
+    float: left;
+    width: 312px;
+    height: 100%;
+    border-right: 1px solid #e8e8e8;
+}
+
+.footer .footer-c .login-method .login-method-btn {
+    display: block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background: #ffffff;
+    border: 1px solid #00b38a;
+    color: #00b38a;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.footer .footer-c .login-method .login-method-btn i {
+    display: inline-block;
+    width: 12px;
+    height: 15px;
+    margin-right: 7px;
+    vertical-align: middle;
+    background: url("../images/sprite_02.png") no-repeat -150px -220px;
+}
+
+.footer .footer-c .login-method .login-method-btn span {
+    vertical-align: middle;
+}
+
+.footer .footer-c .login-method .login-method-btn:hover {
+    background-color: #00b38a;
+    color: #ffffff;
+}
+
+.footer .footer-c .login-method .login-method-btn:hover i {
+    background-position: -182px -220px;
+}
+
+/*层叠样式*/
+.footer .footer-c .login-method .mini-pro i{
+    width: 16px;
+    height: 14px;
+    background: url("../images/sprite_02.png") no-repeat -214px -54px;
+}
+
+/*小程序二维码定位*/
+.footer .footer-c .login-method .mini-pro{
+    position: relative;
+}
+.footer .footer-c .login-method .mini-pro img{
+    position: absolute;
+    left: 191px;
+    top: 0;
+    display: none;
+    width: 140px;
+    height: 140px;
+    border: 1px solid #ccc;
+}
+
+.footer .footer-c .login-method .mini-pro:hover img{
+    display: block;
+}
+
+.footer .footer-c .login-method .mini-pro:hover i{
+    background-position: -172px -54px;
+}
+
+.footer .footer-c .service {
+    float: left;
+    height: 100%;
+    width: 757px;
+    padding-left: 130px;
+}
+
+.footer .footer-c .service dl {
+    float: left;
+    width: 252px;
+    height: 100%;
+}
+
+.footer .footer-c .service dl dt{
+    font-size: 17px;
+    font-weight: bold;
+    height: 23px;
+    line-height: 23px;
+    color: #555555;
+    margin-bottom: 27px;
+}
+
+.footer .footer-c .service dl dd a{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+}
+
+

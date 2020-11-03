@@ -1,0 +1,29 @@
+.copyright {
+    width: 100%;
+    background: #fafafc;
+    height: 110px;
+}
+
+.copyright-c {
+    width: 1240px;
+    height: 110px;
+    line-height: 110px;
+    margin: 0 auto;
+}
+.copyright-c .info {
+    margin: 0 100px;
+}
+.copyright-c .info .span{
+    font-size: 12px;
+    color: #666666;
+}
+
+.copyright-c .info div{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.copyright-c .info div img{
+    position: relative;
+    top: 3px;
+}

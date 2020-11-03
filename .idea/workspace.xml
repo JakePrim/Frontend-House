@@ -2,114 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33bbaee8-8846-46bf-88fc-d6f0b2dde61b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/backtop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/copyright.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/hot-company.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/hot-links.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/hot-recruit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/login-banner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/moudle-tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/school.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/arrow_d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/arrow_down_small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/backtop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_arrow_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_arrow_left_highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_arrow_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/banner_arrow_right_highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/bar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/bg_arrow_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/bg_arrow_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/chat_ewm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_after.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_after2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_akasuo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_aloha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_bubugao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_caixun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_cfca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_fanwei.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_guoke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_honglian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_huixiaoer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_jianxin.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_jiuwu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_kuaishou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_leqee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_letang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_liantong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_mashang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_meituan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_meiyou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_play.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_sanqi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_shopee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_tongcheng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_wangji.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_weibo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_weimeng.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_xiangyu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_xichuang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_yiliu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_yizhao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_zhonglan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/company_logo_zijie.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/direct-recruit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/footer_lagou_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/icon_chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/it_bottom_v1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/logo_ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/main_list_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/mini_pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/more_arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/more_arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/qr_code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/sprite_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/sprite_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/text_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/images/wanba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/1450855198-58056.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/1450855246-61162.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/1450855279-64872.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/1451960447-93534.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/1469442560-64371.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/Cix_s1f66-eAGausAABXAszHWuE990.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/Cix_s1f6EZaAMxvjAA2l_exLROk326_180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/Cix_s1fuEgmAc5NwAABEl576SHY123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/CnQOjVf4y6iAe-3RAAbqolcyaco939_180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/CnQOjVf6EfOAKlj2AAvhVMfnh40856_180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/CnQOjVf8Qm2AGJwmAAf5c4NUNpI085_180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/CnQOjVffSHOAaRkmAA0Rkx2XjKE222_180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/CnQOjVfhDa2AKtdyAAAtKjihE5E114.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/footer-copy-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/gotop-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/images/trust-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/webpack.dev.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/company.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/backtop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/copyright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/hot-company.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/hot-links.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/hot-recruit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/login-banner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/moudle-tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/school.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/adv-info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/copyright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/index-main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/phone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/components/HelloWorld.vue" beforeDir="false" />
@@ -126,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -151,7 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Components/1.js" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -164,22 +88,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HTML&amp;CSS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="圆形路径动画-方案1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/圆形路径动画-方案1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="code4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/code4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="company.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/PC静态网站开发/company.html" useBuiltInWebServerPort="true">
@@ -188,16 +109,19 @@
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/lagou/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/meizu/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/PC静态网站开发/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.company.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.company.html" />
         <item itemvalue="JavaScript Debug.圆形路径动画-方案1.html" />
-        <item itemvalue="JavaScript Debug.code4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +147,8 @@
       <workItem from="1603977772128" duration="59000" />
       <workItem from="1603977851673" duration="7785000" />
       <workItem from="1604066314501" duration="15519000" />
-      <workItem from="1604218653962" duration="12239000" />
+      <workItem from="1604218653962" duration="12761000" />
+      <workItem from="1604305330301" duration="25851000" />
     </task>
     <servers />
   </component>
@@ -234,21 +159,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1388" height="232" key="GridCell.Tab.0.bottom" timestamp="1603451387335">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1604306377059">
+      <screen x="-359" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877/-359.-1057.1920.1057@-359.-1057.1920.1057" timestamp="1604306377059" />
     <state width="1388" height="232" key="GridCell.Tab.0.bottom/0.23.1440.877/-359.-1057.1920.1057@0.23.1440.877" timestamp="1603451387335" />
-    <state width="1388" height="232" key="GridCell.Tab.0.center" timestamp="1603451387334">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1604306377058">
+      <screen x="-359" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1388" height="217" key="GridCell.Tab.0.center/0.23.1440.877/-359.-1057.1920.1057@-359.-1057.1920.1057" timestamp="1604306377058" />
     <state width="1388" height="232" key="GridCell.Tab.0.center/0.23.1440.877/-359.-1057.1920.1057@0.23.1440.877" timestamp="1603451387334" />
-    <state width="1388" height="232" key="GridCell.Tab.0.left" timestamp="1603451387333">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1604306377058">
+      <screen x="-359" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1388" height="217" key="GridCell.Tab.0.left/0.23.1440.877/-359.-1057.1920.1057@-359.-1057.1920.1057" timestamp="1604306377058" />
     <state width="1388" height="232" key="GridCell.Tab.0.left/0.23.1440.877/-359.-1057.1920.1057@0.23.1440.877" timestamp="1603451387333" />
-    <state width="1388" height="232" key="GridCell.Tab.0.right" timestamp="1603451387334">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1604306377059">
+      <screen x="-359" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1388" height="217" key="GridCell.Tab.0.right/0.23.1440.877/-359.-1057.1920.1057@-359.-1057.1920.1057" timestamp="1604306377059" />
     <state width="1388" height="232" key="GridCell.Tab.0.right/0.23.1440.877/-359.-1057.1920.1057@0.23.1440.877" timestamp="1603451387334" />
     <state x="239" y="23" width="1201" height="877" key="SettingsEditor" timestamp="1603852133205">
       <screen x="0" y="23" width="1440" height="877" />
@@ -267,11 +196,12 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="350" y="31" width="740" height="861" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1603619317943" />
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1604157883389">
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1604374715718">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-109.1920.1080@0.0.1440.900" timestamp="1604157883389" />
-    <state x="42" y="-1057" width="1118" height="1213" key="search.everywhere.popup/0.23.1440.877/-359.-1057.1920.1057@-359.-1057.1920.1057" timestamp="1603874486359" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/-359.-1080.1920.1080@0.0.1440.900" timestamp="1604374715718" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-109.1920.1080@0.0.1440.900" timestamp="1604332325722" />
+    <state x="42" y="-1057" width="1118" height="1213" key="search.everywhere.popup/0.23.1440.877/-359.-1057.1920.1057@-359.-1057.1920.1057" timestamp="1604305464429" />
     <state x="301" y="23" width="838" height="1006" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603619249492" />
   </component>
 </project>

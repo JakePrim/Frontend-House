@@ -1,0 +1,69 @@
+/*底部区域样式*/
+.footer{
+    width: 100%;
+    background: #fafafc;
+}
+.footer .footer-c {
+    width: 1240px;
+    height: 180px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.footer .footer-c .left{
+    float: left;
+}
+
+.footer .footer-c .left dl{
+    float: left;
+    padding: 28px 92px 22px;
+}
+
+.footer .footer-c .left dl dt{
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footer .footer-c .left dl dd{
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+}
+
+.footer .footer-c .right{
+    float: right;
+    margin-right: 40px;
+}
+
+.footer .footer-c .right dl{
+    float: left;
+    padding: 28px 0 22px;
+}
+
+.footer .footer-c .right dl dt{
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #666666;
+}
+.footer .footer-c .right dl .telephone{
+    font-size: 20px;
+    color: #1fa7ea;
+    text-align: center;
+    height: 58px;
+    line-height: 58px;
+}
+
+.footer .footer-c .right dl .service{
+    width: 160px;
+    height: 35px;
+    background: #1fa7ea;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.footer .footer-c .right dl .service .method-btn{
+    color: #ffffff;
+}
