@@ -39,6 +39,7 @@
       <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/zfone.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/zf.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.assets/大前端技术-思维导图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/01-html-js.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/01-html-js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/02-defer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/02-defer.html" afterDir="false" />
@@ -56,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/string.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/string.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/undefined.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/undefined.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaScript/basics/聊天实例实现/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/components/HelloWorld.vue" beforeDir="false" />
@@ -170,7 +172,7 @@
       <workItem from="1603977851673" duration="7785000" />
       <workItem from="1604066314501" duration="15519000" />
       <workItem from="1604218653962" duration="12761000" />
-      <workItem from="1604305330301" duration="38929000" />
+      <workItem from="1604305330301" duration="38954000" />
     </task>
     <servers />
   </component>
