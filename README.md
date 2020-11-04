@@ -20,7 +20,7 @@
 
 - [HTML5&CSS3新特性](https://www.yuque.com/jakeprim/lozo99/redvs1)
 
-- PC端网页开发实战
+- [PC端网页开发实战](https://github.com/JakePrim/Frontend-House/tree/master/HTML%26CSS/PC%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91)
 
 - 移动端网页开发实战
 
