@@ -1,0 +1,84 @@
+/*联系我们*/
+.contact{
+    width: 100%;
+    background: #ffffff;
+}
+.contact-c{
+    width: 1278px;
+    height: 604px;
+}
+.contact-c .header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-c .header h2{
+    height: 55px;
+    line-height: 55px;
+    font-size: 25px;
+    color: #015cac;
+}
+
+.contact-c .left{
+    float: left;
+}
+
+.contact-c .left a{
+    display: block;
+    width: 243px;
+    height: 81px;
+    line-height: 81px;
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.contact-c .left a.product{
+    background: url("../images/149224179529064909.png") no-repeat;
+}
+.contact-c .left a.culture{
+    background: url("../images/149224183222967445.png") no-repeat;
+}
+.contact-c .left a.us{
+    background: url("../images/149224212840219535.png") no-repeat;
+}
+
+.contact-c .right{
+    float: right;
+    width: 980px;
+    height: 385px;
+}
+.contact-c .right .list1{
+    float: left;
+}
+.contact-c .right .list1 li{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-c .right .list1 li dl dt{
+    color: #015cac;
+    height: 24px;
+    line-height: 24px;
+}
+
+.contact-c .right .list1 li dl dd{
+    height: 24px;
+    line-height: 24px;
+}
+
+.contact-c .right .list2{
+    float: left;
+}
+
+.contact-c .right .list2 li{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,51 @@
+/*header样式*/
+.header {
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+}
+.header-c {
+    width: 1278px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.header-c .left{
+    float: left;
+    padding-left: 10px;
+}
+
+.header-c .left .logo {
+    float: left;
+    width: 203px;
+    height: 70px;
+    padding-top:5px;
+}
+
+.header-c .left .logo a{
+    display: block;
+    width: 203px;
+    height: 70px;
+    text-indent: -999em;
+    overflow: hidden;
+    background: url("../images/logo.png") no-repeat 0 0;
+}
+
+.header-c .right{
+    float: right;
+    padding-right: 10px;
+}
+
+.header-c .right ul li{
+    float: left;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.header-c .right ul li:last-child{
+    margin-right: 0;
+}
+
+.header-c .right ul li a{
+    color: #0662b0;
+}

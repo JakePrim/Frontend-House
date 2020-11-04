@@ -2,38 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33bbaee8-8846-46bf-88fc-d6f0b2dde61b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/webpack.dev.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/backtop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/copyright.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/hot-company.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/hot-links.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/hot-recruit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/login-banner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/moudle-tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/school.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/adv-info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/copyright.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/index-main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/phone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/copyright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/dynamic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/index-main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/notice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css/service.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/149224179529064909.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/149224183222967445.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/149224212840219535.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/FZ.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/banner_pic01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/banner_pic02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/banner_pic03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/banner_pic04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/banner_pic05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/example_img01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/example_img02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/icon04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/icon05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/icon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/nav2_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/play_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/w_chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/images/zfone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/zf.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/01-html-js.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/01-html-js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/02-defer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/02-defer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/03-async.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/03-async.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/04-preload.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/04-preload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/05-noscript.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/05-noscript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/01-javascript-acquaintance/example2.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter01-javascript-acquaintance/example2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/Symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/Symbol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/boolean.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/boolean.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/null.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/null.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/number.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/string.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/string.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/02-language-basics/undefined.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/book-javascript advanced programming/chapter02-language-basics/undefined.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/basics/聊天实例实现/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/components/HelloWorld.vue" beforeDir="false" />
@@ -50,9 +72,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,7 +97,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Components/1.js" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -92,17 +114,14 @@
       <recent name="$PROJECT_DIR$/HTML&amp;CSS" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng/css" />
+      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/fangzheng" />
       <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou" />
       <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu" />
       <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/meizu/css" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/homework/lagou/css" />
-      <recent name="$PROJECT_DIR$/HTML&amp;CSS/PC静态网站开发" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration name="圆形路径动画-方案1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/圆形路径动画-方案1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="company.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/PC静态网站开发/company.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -112,16 +131,19 @@
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/meizu/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/homework/fangzheng/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FrontendHouse/HTML&amp;CSS/PC静态网站开发/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.company.html" />
-        <item itemvalue="JavaScript Debug.圆形路径动画-方案1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +170,7 @@
       <workItem from="1603977851673" duration="7785000" />
       <workItem from="1604066314501" duration="15519000" />
       <workItem from="1604218653962" duration="12761000" />
-      <workItem from="1604305330301" duration="25851000" />
+      <workItem from="1604305330301" duration="38929000" />
     </task>
     <servers />
   </component>
@@ -196,11 +218,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="350" y="31" width="740" height="861" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1603619317943" />
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1604374715718">
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1604420652097">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/-359.-1080.1920.1080@0.0.1440.900" timestamp="1604374715718" />
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-109.1920.1080@0.0.1440.900" timestamp="1604332325722" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/-359.-1080.1920.1080@0.0.1440.900" timestamp="1604395194065" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-109.1920.1080@0.0.1440.900" timestamp="1604420652097" />
     <state x="42" y="-1057" width="1118" height="1213" key="search.everywhere.popup/0.23.1440.877/-359.-1057.1920.1057@-359.-1057.1920.1057" timestamp="1604305464429" />
     <state x="301" y="23" width="838" height="1006" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603619249492" />
   </component>

@@ -1,0 +1,59 @@
+.footer{
+    width: 100%;
+    height: 232px;
+    background: #5985b0;
+}
+
+.footer-c{
+    width: 1278px;
+    height: 183px;
+    padding-top: 49px;
+}
+
+.footer-c .left{
+    float: left;
+    height: 130px;
+}
+
+.footer-c .left img{
+    float: left;
+    width: 139px;
+    height: 130px;
+    margin-right: 24px;
+}
+
+.footer-c .left dl{
+    float: left;
+    height: 130px;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 2px;
+}
+
+.footer-c .left dl dt{
+    height: 42px;
+    line-height: 42px;
+}
+
+.footer-c .left dl dd{
+    height: 42px;
+    line-height: 42px;
+}
+
+.footer-c .left dl dd a{
+    color: #ffffff;
+}
+
+.footer-c .right{
+    float: right;
+    height: 130px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.footer-c .right p{
+    height: 28px;
+    line-height: 28px;
+}
+
+

@@ -1,0 +1,44 @@
+/*焦点图区域*/
+.main {
+    position: relative;
+    width: 1920px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.main .banner-img {
+    position: absolute;
+    left: 0;/*通过修改left更换轮播图*/
+    top: 0;
+    width: 9600px;
+    height: 400px;
+}
+
+.main .banner-img li {
+    float: left;
+    width: 1920px;
+    height: 400px;
+}
+
+.main .banner-nav {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    margin-left: -200px;
+    width: 400px;
+    height: 6px;
+}
+
+
+.main .banner-nav li{
+    float: left;
+    width: 70px;
+    height: 6px;
+    margin-right: 10px;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+.main .banner-nav li.current{
+    background: #FFFFFF;
+}

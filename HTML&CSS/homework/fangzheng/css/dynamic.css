@@ -1,0 +1,56 @@
+.dynamic {
+    width: 100%;
+    background: #ffffff;
+}
+
+.dynamic-c {
+    width: 1278px;
+    height: 307px;
+    padding: 50px 0 59px 0;
+}
+
+.dynamic-c img{
+    float: left;
+    width: 545px;
+    height: 307px;
+    background-color: #50adcb;
+}
+
+.dynamic-c dl{
+    float: right;
+    height: 307px;
+    width: 670px;
+}
+.dynamic-c dl dt{
+    padding-bottom: 10px;
+}
+.dynamic-c dl dt a{
+    color: #ffffff;
+    display: block;
+    width: 116px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background-color: #5985b0;
+}
+
+.dynamic-c dl dd{
+    margin-left: 10px;
+    height: 34px;
+    width: 660px;
+    color: #666666;
+    cursor: pointer;
+}
+
+.dynamic-c dl dd .title{
+    float: left;
+}
+
+.dynamic-c dl dd .time{
+    float: right;
+}
+
+.dynamic-c dl dd .more{
+    float: right;
+    text-decoration: underline;
+}
