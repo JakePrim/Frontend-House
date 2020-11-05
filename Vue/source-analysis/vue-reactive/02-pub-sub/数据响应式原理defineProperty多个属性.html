@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据响应式原理-defineProperty</title>
+</head>
+<body>
+<div id="app">
+    hello
+</div>
+<script>
+    let data = {
+        msg: 'hello',
+        count: 10
+    }
+    //模拟Vue实例
+    let vm = {}
+
+    //调用遍历属性劫持的方法
+    proxyData(data)
+
+    //定义一个遍历属性的方法
+    function proxyData(data) {
+        Object.keys(data).forEach(key => {
+            //数据劫持：当访问或者设置vm中的成员的时候，做一些干预操作
+            //劫持的对象  劫持对象的属性  对属性的操作
+            Object.defineProperty(vm, key, {
+                enumerable: true,//可枚举 课遍历
+                configurable: true,//可配置 可以使用delete删除，可以通过defineProperty重新定义
+                //当获取值的时候执行
+                get() {
+                    console.log('get: ', data[key])
+                    return data[key]
+                },
+                //当设置值的时候执行
+                set(newValue) {
+                    console.log('set:' + newValue)
+                    if (newValue === data[key]) {
+                        return
+                    }
+                    data[key] = newValue
+                    //数据更改，更新DOM的值
+                    document.querySelector('#app').textContent = data[key]
+                }
+            });
+        })
+    }
+
+
+    vm.msg = 'Hello World - 多个成员属性'
+    vm.count = 100;
+    console.log(vm.msg)
+    console.log(vm.count)
+
+    //但是这种对于一个对象中多个属性进行劫持？
+</script>
+</body>
+</html>

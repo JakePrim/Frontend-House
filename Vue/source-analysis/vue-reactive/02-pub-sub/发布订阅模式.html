@@ -6,38 +6,49 @@
     <title>发布订阅模式</title>
 </head>
 <body>
-    <script>
-        //{'click':[fn1,fn2],'change:[fn]'}
-        class EventEmitter{
-            constructor(){
-                this.subs = Object.create(null);//没有原型的object对象 提高性能
-            }
-
-            //注册事件
-            $on(eventType,handler){
-                this.subs[eventType] = this.subs[eventType] || [];
-                this.subs[eventType].push(handler);
-            }
-
-            //触发事件
-            $emit(eventType){
-                if(this.subs[eventType]){
-                    this.subs[eventType].forEach(element => {
-                        element();
-                    });
-                }
-            }
+<script>
+    //发布订阅模式
+    //订阅者、发布者、信号中心
+    /***
+     * 假定存在一个"信号中心"，某个任务执行完成，就向信号中心"发布"一个信号，其他任务可以向信号中心"订阅"
+     * 这个信号，从而知道什么时候自己可以开始执行。叫做"发布订阅模式"(publish-subscribe pattern)
+     */
+        //{'click':[fn1,fn2],'change':[fn]}
+    class EventEmitter {
+        constructor() {
+            this.subs = Object.create(null);//没有原型的object对象 可以提高性能
         }
 
-        //TEST
-        let em = new EventEmitter();
-        em.$on('click',()=>{
-            console.log('click1');
-        })
-        em.$on('click',()=>{
-            console.log('click2');
-        })
-        em.$emit('click');
-    </script>
+        //注册事件
+        $on(eventType, handler) {
+            this.subs[eventType] = this.subs[eventType] || [];
+            this.subs[eventType].push(handler);
+        }
+
+        //触发事件
+        $emit(eventType) {
+            if (this.subs[eventType]) {
+                this.subs[eventType].forEach(element => {
+                    element();
+                });
+            }
+        }
+    }
+
+    //TEST
+    //信号中心
+    let em = new EventEmitter();
+
+    //订阅信号
+    em.$on('click', () => {
+        console.log('click1');
+    })
+    em.$on('click', () => {
+        console.log('click2');
+    })
+
+    //发布信号
+    em.$emit('click');
+</script>
 </body>
 </html>
