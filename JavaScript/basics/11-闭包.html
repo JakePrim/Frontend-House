@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //闭包：有权访问另一个函数的作用域变量的函数，访问函数内部变量，保持函数在环境中一直存在，不会被来及回收机制处理
+
+    //理解全局变量
+    var a = 10;
+    function test1(){
+        console.log(a)
+        //局部变量 只能在该函数内部访问
+        var b = 11;
+        //不使用var 声明的变量就是全局变量
+        c=12;
+        console.log(b)
+        console.log(c)
+    }
+    test1()
+
+    function test2(){
+        console.log(a)
+        console.log(c)
+        // console.log(b)//b is not defined
+    }
+    test2()
+    //a 是全局变量 可以被任意函数访问到
+
+
+    //理解局部变量
+    //记录访问方法的次数为例
+    var count = 0
+    function test3(){
+        count++
+    }
+    test3()
+    test3()
+    test3()
+    test3()
+    console.log("访问次数:"+count)//4
+    // 但是count是全局变量 并不安全 谁都可以访问
+
+    // count 设置为局部变量 但是每次调用该方法都会讲count还原为0
+    function test4(){
+        var count = 0;
+        function add(){
+            return count++;
+        }
+        add()
+        return count;
+    }
+
+    console.log(test4())//0
+    console.log(test4())//0
+    console.log(test4())//0
+    console.log(test4())//0
+
+    //需要通过闭包来解决 将count值保护在里边
+
+</script>
+</body>
+</html>

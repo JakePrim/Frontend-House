@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //普通函数
+    function sum(a, b) {
+        var sum = a + b
+        console.log(sum)
+    }
+
+    //调用函数
+    sum(10, 1)
+
+    //函数返回值
+    function sum1(a, b) {
+        return a + b
+    }
+
+    console.log(sum1(1, 2))
+
+    //函数的参数及参数对象
+    function test(a,b,c){
+        console.log(arguments)
+        console.log("共有"+arguments.length+"个参数")
+        console.log("第二个参数是："+arguments[1])
+    }
+    test(1,2)
+
+    //构造函数 - 了解即可
+    var fn = new Function("a","b","return a + b");
+    console.log(fn(1,2))
+
+    //匿名函数
+    var f1 = function (a,b){
+        return a * 10 + b
+    }
+    console.log(f1(1,3))
+
+
+
+
+
+
+</script>
+</body>
+</html>

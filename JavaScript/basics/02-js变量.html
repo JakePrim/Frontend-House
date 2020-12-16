@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = 10
+      var b = 'kobe'
+      var c = a + b
+      //自动类型转换
+      console.log(c) //10kobe   string
+      console.log(true + 5) //6 true表示1   number
+      console.log(true + 'a') //truea   string
+      console.log(true + false) //1   number
+
+      //数据类型转换
+      var x = '6.32'
+      console.log(parseInt(x)) // 6
+      //非数字类型 返回NaN
+      console.log(parseInt('老'))
+      console.log(parseFloat(x))
+      // 查看数据类型
+      console.log(a + '|' + typeof a)
+      //=== 和 ==
+      console.log(10 == '10') //true
+      console.log(10 === '10') //false
+    </script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //javascript 数组可以存储多种类型的数据
+        //创建数组的方式
+        var arr1 = new Array()
+        arr1[0] = 1
+        arr1[1] = 2
+        var arr2 = [1,2,3,4,false,"test"]
+        console.log(typeof arr2) //object
+
+        //数组相关的api
+        //1. toString 转换为字符串
+        console.log(arr2.toString())
+        //2. join 将数组的每个元素用 - 进行连接，并形成一个全新的字符串
+        var arr3 = [1,2,3,4]
+        var str = arr3.join('-')
+        console.log(str)//1-2-3-4
+
+        //3. concat 拼接数组 返回一个新数组，原数组不变
+        var a = arr3.concat(5,6)
+        console.log(a,arr3) // 新数组：1 2 3 4 5 6    原数组：1 2 3 4
+
+        //4. slice 提取数组的一部分 形成一个新的数组 相当于截取数组 截取的方式[ ) 不包含结尾
+        var a1 = arr3.slice(2,3)
+        console.log(a1,arr3)//a1 = [3]  arr3=[1,2,3,4]
+
+        //5. reverse 数组的反转 返回一个新的数组 同时也会改变原有的数组
+        var a2 = arr3.reverse()
+        console.log(a2,arr3)// a2 = [4,3,2,1] arr3=[4,3,2,1]
+
+        //6. sort 数组排序 默认字符排序，不会按照字面量大小排序
+        var arr4 = [11,12,31,112,1134]
+        var a3 = arr4.sort()
+        console.log(a3)
+        // 如果要按照大小排序 就需要传递一个排序函数
+        var a4 = arr4.sort((a,b)=>{
+            console.log(a,b)
+            //小于 0 ，那么 a 会被排列到 b 之前
+            //等于 0 ， a 和 b 的相对位置不变
+            //大于 0 ， b 会被排列到 a 之前
+            return a-b;
+        })
+        console.log(a4)
+    </script>
+</body>
+</html>

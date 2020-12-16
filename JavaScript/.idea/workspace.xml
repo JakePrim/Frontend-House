@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61c01566-7c5f-484c-9710-2fd81bb6b0b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaScript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/04-数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/05-Math.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/06-number.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/07-正则表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/08-Date日期.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/09-函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/10-全局函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/11-闭包.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/.idea/DOM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践1-全选列表实践/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践1-全选列表实践/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践1-全选列表实践/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践2-列表排序/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践2-列表排序/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/img/cover-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/img/folder-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/js/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践3-百度网盘效果(综合实践)/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践4-原生组件实现/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践4-原生组件实现/组件样式模版.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践5-手写JQ核心代码/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践5-手写JQ核心代码/jq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践6-MVVM实现/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践6-MVVM实现/myvue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践6-MVVM实现/vuetest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践7-异步的应用/generator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践7-异步的应用/iterator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践7-异步的应用/promise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践8-手写promise/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践8-手写promise/MPromise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践8-手写promise/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践8-手写promise/原生promise理解.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践8-手写promise/手写promise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/最佳实践系列/实践8-手写promise/默写promise.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ljFraA1j1EybKIRZdjipTVlvUc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.11-闭包.html">
+    <configuration name="07-正则表达式.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScript/basics/07-正则表达式.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="08-Date日期.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScript/basics/08-Date日期.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="09-函数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScript/basics/09-函数.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="10-全局函数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScript/basics/10-全局函数.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-闭包.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScript/basics/11-闭包.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.11-闭包.html" />
+        <item itemvalue="JavaScript Debug.10-全局函数.html" />
+        <item itemvalue="JavaScript Debug.09-函数.html" />
+        <item itemvalue="JavaScript Debug.08-Date日期.html" />
+        <item itemvalue="JavaScript Debug.07-正则表达式.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61c01566-7c5f-484c-9710-2fd81bb6b0b3" name="Default Changelist" comment="" />
+      <created>1608102793372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608102793372</updated>
+      <workItem from="1608102794575" duration="156000" />
+      <workItem from="1608102991814" duration="155000" />
+      <workItem from="1608103382265" duration="5695000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var name = "abc%123";//字母和数字的组合 特殊字符不能出现
+        var reg = new RegExp('^[a-zA-Z0-9]{5,8}$');//以^ 开始 中间内容 $ 结束
+        //或者下面的写法也一样
+        var reg1 = /^[a-zA-Z0-9]{5,8}$/;
+        if (reg.test(name)) {
+            console.log("验证通过")
+        }else {
+            console.log("验证失败")
+        }
+    </script>
+</body>
+</html>

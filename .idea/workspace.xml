@@ -2,22 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33bbaee8-8846-46bf-88fc-d6f0b2dde61b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/02-pub-sub/数据响应式原理Proxy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/02-pub-sub/数据响应式原理defineProperty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/02-pub-sub/数据响应式原理defineProperty多个属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/basics/vue3/app/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/basics/vue3/app/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/01-mini-vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/01-mini-vue/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/01-mini-vue/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/01-mini-vue/js/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/02-pub-sub/发布订阅模式.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/02-pub-sub/发布订阅模式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/02-pub-sub/数据响应式原理.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/02-pub-sub/观察者模式.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/source-analysis/vue-reactive/02-pub-sub/观察者模式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/DOM/.idea/DOM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/DOM/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/DOM/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/DOM/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/DOM/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/DOM/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践1-全选列表实践/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践1-全选列表实践/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践1-全选列表实践/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践2-列表排序/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践2-列表排序/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/img/cover-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/img/folder-b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/js/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践3-百度网盘效果(综合实践)/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践4-原生组件实现/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践4-原生组件实现/组件样式模版.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践5-手写JQ核心代码/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践5-手写JQ核心代码/jq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践6-MVVM实现/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践6-MVVM实现/myvue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践6-MVVM实现/vuetest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践7-异步的应用/generator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践7-异步的应用/iterator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践7-异步的应用/promise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践8-手写promise/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践8-手写promise/MPromise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践8-手写promise/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践8-手写promise/原生promise理解.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践8-手写promise/手写promise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/最佳实践系列/实践8-手写promise/默写promise.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +120,6 @@
         <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.发布订阅模式.html" />
         <item itemvalue="JavaScript Debug.数据响应式原理Proxy.html" />
-        <item itemvalue="JavaScript Debug.数据响应式原理defineProperty多个属性.html" />
         <item itemvalue="JavaScript Debug.数据响应式原理defineProperty.html" />
       </list>
     </recent_temporary>
@@ -127,6 +149,7 @@
       <workItem from="1604218653962" duration="12761000" />
       <workItem from="1604305330301" duration="39198000" />
       <workItem from="1604496750202" duration="5944000" />
+      <workItem from="1608102679754" duration="111000" />
     </task>
     <servers />
   </component>

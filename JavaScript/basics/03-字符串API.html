@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var str = 'hello'
+    //获取字符串的长度 它是字符串的属性
+    console.log(str.length)
+    //大小写转换
+    var name = 'angierSun'
+    console.log(name.toUpperCase())
+    console.log(name.toLowerCase())
+    //返回某个下标的字符
+    var str1 = 'javascript'
+    var str2 = str1.charAt(6)
+    console.log(str2) //r
+    console.log(str1.charCodeAt(6)) //114 ASCII 码
+
+    //indexOf 查找字符在字符串第一次出现的的位置
+    console.log(str1.indexOf('a'));
+    //lastIndexOf 查找字符在字符串最后一次出现的位置
+    console.log(str1.lastIndexOf('a'));
+
+    //subString 截取字符串 结束位置是不包含的
+    console.log(str1.substring(1,4));//ava  => [1,4)
+
+    //replace 替换. replace 不会改变原有的字符串
+    console.log(str1.replace('java','esma'),str1);
+
+    //split 分割字符串
+    var s = str1.split('s');
+    console.log(s[1])
+</script>
+</body>
+</html>
