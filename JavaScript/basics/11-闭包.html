@@ -59,6 +59,23 @@
     console.log(test4())//0
 
     //需要通过闭包来解决 将count值保护在里边
+    function test5(){
+        var count = 0;
+        function add(){
+            return count+=1;
+        }
+        return add;
+    }
+    var fn = test5();//返回的是add的函数体
+    //而下面运行的函数体执行，里面的count就是test5()函数的变量count，这样不会重复调用test5 count的值会
+    //随着add函数的调用而改变，而count只能被test5和add函数访问到
+    console.log(fn())
+    console.log(fn())
+    console.log(fn())
+
+    //注意闭包的优点和缺点
+    //闭包的优点：方便调用上下文中的局部变量逻辑紧密，可以在一个函数中在创建一个函数，避免了传参的问题
+    //闭包的缺点：因为使用闭包可以在函数执行完后不被销毁，保留在内存中，如果大量使用闭包就会造成内存泄露，内存消耗很大
 
 </script>
 </body>
